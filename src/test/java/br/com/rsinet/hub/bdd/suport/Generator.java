@@ -1,4 +1,4 @@
-package suport;
+package br.com.rsinet.hub.bdd.suport;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;

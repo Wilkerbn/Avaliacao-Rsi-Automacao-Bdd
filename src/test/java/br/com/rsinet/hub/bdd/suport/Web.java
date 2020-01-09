@@ -1,4 +1,4 @@
-package suport;
+package br.com.rsinet.hub.bdd.suport;
 
 import java.util.concurrent.TimeUnit;
 

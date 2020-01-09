@@ -1,10 +1,12 @@
 #language:pt
+@regressivo
 Funcionalidade: Cadastro de usuario 
   
   Como um usuário quero preencher minhas informações
   Para que eu possa ter meu cadastro no site 
-
-Esquema do Cenário: Deve inserir uma conta com sucesso
+  
+@cadastro_de_usuario
+Esquema do Cenário: Deve inserir uma conta 
     Dado que estou acessando a aplicação
     Quando selecionar a opção usuário
     E clicar em criar uma nova conta
@@ -25,7 +27,7 @@ Esquema do Cenário: Deve inserir uma conta com sucesso
     Então devo receber a informação "<informacaoEsperada>"
     
 Exemplos: 
-      | nomeUsuario     | senha     | confirmaSenha  | email                         | nome       | ultimoNome | telefone    | pais     | cidade      | endereco          | estado         | cep       | informacaoEsperada       |
-      | Wilkerbn10       | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	|	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | Wilkerbn10         			|
-      | Wilkerbn10       | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	|	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | User name already exists |
+      | nomeUsuario      | senha     | confirmaSenha  | email                         | nome      | ultimoNome | telefone    | pais     | cidade      | endereco          | estado         | cep       | informacaoEsperada       |
+      | Wilkerbn15       | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	|	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | Wilkerbn15         			|
+      | Wilkerbn15       | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	|	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | User name already exists |
     

@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
 encoding//src/test/resources/features/cadastroDeUsuarioTest.feature=UTF-8
+encoding//src/test/resources/features/consultaDeProdutoCampoPesquisaTest.feature=UTF-8
+encoding//src/test/resources/features/consultaDeProdutoTelaPrincipalTest.feature=UTF-8
