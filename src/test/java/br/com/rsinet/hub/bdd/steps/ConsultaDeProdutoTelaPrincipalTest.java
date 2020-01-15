@@ -9,7 +9,7 @@ import cucumber.api.java.pt.Quando;
 
 public class ConsultaDeProdutoTelaPrincipalTest {
 	
-//	WebDriver driver = null;
+	WebDriver driver = null;
 //	
 //	@Dado("^que estou acessando a aplicação$")
 //	public void queEstouAcessandoAAplicação() {

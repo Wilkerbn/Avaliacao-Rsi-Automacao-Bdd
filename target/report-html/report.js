@@ -339,21 +339,21 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 7295647400,
+  "duration": 7854423900,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 1019823400,
+  "duration": 4672255800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 572466500,
+  "duration": 490248300,
   "status": "passed"
 });
 formatter.match({
@@ -366,9 +366,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "duration": 10055170500,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027usernameRegisterPage\u0027]\"}\n  (Session info: chrome\u003d79.0.3945.88)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027RSI1596\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\WILKER~1.NOG\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a43737780854cd8f728d6254e89e35e9\n*** Element info: {Using\u003dname, value\u003dusernameRegisterPage}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:397)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:303)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat br.com.rsinet.hub.bdd.pages.InfoFormPage.campoApelido(InfoFormPage.java:19)\r\n\tat br.com.rsinet.hub.bdd.steps.CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(CadastroDeUsuarioTest.java:46)\r\n\tat ✽.E preencher meu nome de usuário \"Wilkerbn15\"(features/cadastroDeUsuarioTest.feature:13)\r\n",
-  "status": "failed"
+  "duration": 389672800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -380,7 +379,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 164377000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -392,7 +392,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 150511700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -404,7 +405,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 281509600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -416,7 +418,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 121453000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -428,7 +431,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 183843100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -440,7 +444,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 152367600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -452,7 +457,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 101453600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -464,7 +470,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 146942300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -476,7 +483,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 327331200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -488,7 +496,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 91710800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -500,19 +509,22 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 142886700,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 80936800,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 571371100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -524,14 +536,16 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.devoReceberAInformação(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 26206600,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Wilkerbn15]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat br.com.rsinet.hub.bdd.pages.InfoFormPage.informacaoEsperada(InfoFormPage.java:83)\r\n\tat br.com.rsinet.hub.bdd.steps.CadastroDeUsuarioTest.devoReceberAInformação(CadastroDeUsuarioTest.java:116)\r\n\tat ✽.Então devo receber a informação \"Wilkerbn15\"(features/cadastroDeUsuarioTest.feature:27)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 314166500,
+  "duration": 300421300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 619666700,
+  "duration": 630067500,
   "status": "passed"
 });
 formatter.scenario({
@@ -685,23 +699,22 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 5850508600,
+  "duration": 6763463000,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 993107800,
+  "duration": 5870698200,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 1558673200,
-  "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca href\u003d\"javascript:void(0)\" role\u003d\"link\" class\u003d\"create-new-account ng-scope\" translate\u003d\"CREATE_NEW_ACCOUNT\" data-ng-click\u003d\"createNewAccount()\"\u003e...\u003c/a\u003e is not clickable at point (517, 342). Other element would receive the click: \u003cdiv class\u003d\"loader\" style\u003d\"display: block; opacity: 1;\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d79.0.3945.88)\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027RSI1596\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\\Users\\WILKER~1.NOG\\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 8677c35bcf83a6423e829bb138f22ca8\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat br.com.rsinet.hub.bdd.pages.LoginPage.criarNovaConta(LoginPage.java:25)\r\n\tat br.com.rsinet.hub.bdd.steps.CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta(CadastroDeUsuarioTest.java:41)\r\n\tat ✽.E clicar em criar uma nova conta(features/cadastroDeUsuarioTest.feature:12)\r\n",
-  "status": "failed"
+  "duration": 17968150900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -713,7 +726,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 184433800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -725,7 +739,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 148525100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -737,7 +752,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 144719500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -749,7 +765,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 387237700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -761,7 +778,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 119078100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -773,7 +791,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 135777000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -785,7 +804,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 150938800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -797,7 +817,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 97794500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -809,7 +830,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 140443600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -821,7 +843,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 195784500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -833,7 +856,8 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86711900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -845,19 +869,22 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 133110900,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79961600,
+  "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 571836300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -869,14 +896,15 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.devoReceberAInformação(String)"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 316872800,
+  "duration": 47234500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 600250400,
+  "duration": 362155500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 615132700,
   "status": "passed"
 });
 });
