@@ -1,11 +1,15 @@
 package br.com.rsinet.hub.bdd.steps;
 
+
+
 import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+
 import org.junit.Rule;
 import org.junit.rules.TestName;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +17,7 @@ import org.openqa.selenium.WebDriver;
 import br.com.rsinet.hub.bdd.pages.InfoFormPage;
 import br.com.rsinet.hub.bdd.pages.LoginPage;
 import br.com.rsinet.hub.bdd.suport.Web;
+
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
@@ -20,8 +25,9 @@ import cucumber.api.java.pt.Então;
 import cucumber.api.java.pt.Quando;
 
 public class CadastroDeUsuarioTest {
-
-	WebDriver driver = null;
+	private WebDriver driver;
+	InfoFormPage infoFormPage;
+	LoginPage loginPage ;
 
 	@Rule
 	public TestName test = new TestName();
@@ -29,105 +35,115 @@ public class CadastroDeUsuarioTest {
 	@Dado("^que estou acessando a aplicação$")
 	public void queEstouAcessandoAAplicação() {
 		driver = Web.createChrome();
+		infoFormPage = new InfoFormPage(driver);
+		loginPage = new LoginPage(driver);
 	}
 
 	@Quando("^selecionar a opção usuário$")
 	public void selecionarAOpçãoUsuário() {
-		new LoginPage(driver).botaoUsuario();
+		loginPage.clicaNoBotaoUsuario();
 	}
 
 	@Quando("^clicar em criar uma nova conta$")
 	public void clicarEmCriarUmaNovaConta() throws Exception {
-		new LoginPage(driver).criarNovaConta();
+		loginPage.clicaNoBotaoCriarNovaConta();
 	}
 
 	@Quando("^preencher meu nome de usuário \"([^\"]*)\"$")
-	public void preencherMeuNomeDeUsuário(String nomeUsuario) {
-		new InfoFormPage(driver).campoApelido(nomeUsuario);
+	public void preencherMeuNomeDeUsuário(String apelidoUsuario) {
+		infoFormPage.inserirApelidoDoUsuario(apelidoUsuario);
 	}
 
 	@Quando("^preencher minha senha \"([^\"]*)\"$")
 	public void preencherMinhaSenha(String senha) {
-		new InfoFormPage(driver).campoSenha(senha);
+		infoFormPage.inserirSenhaDoUsuario(senha);
 	}
 
 	@Quando("^preencher a confirmação da senha \"([^\"]*)\"$")
 	public void preencherAConfirmaçãoDaSenha(String confirmaSenha) {
-		new InfoFormPage(driver).campoConfirmaSenha(confirmaSenha);
+		infoFormPage.inserirNovamenteSenhaDoUsuario(confirmaSenha);
 	}
 
 	@Quando("^preencher meu e-mail \"([^\"]*)\"$")
 	public void preencherMeuEMail(String email) {
-		new InfoFormPage(driver).campoEmail(email);
+		infoFormPage.inserirEmailDoUsuario(email);
 	}
 
 	@Quando("^preencher meu primeiro nome \"([^\"]*)\"$")
 	public void preencherMeuPrimeiroNome(String nome) {
-		new InfoFormPage(driver).campoPrimeiroNome(nome);
+		infoFormPage.inserirPrimeiroNome(nome);
 	}
 
 	@Quando("^preencher meu ultimo nome \"([^\"]*)\"$")
 	public void preencherMeuUltimoNome(String ultimoNome) {
-		new InfoFormPage(driver).campoUltimoNome(ultimoNome);
+		infoFormPage.inserirUltimoNome(ultimoNome);
 	}
 
 	@Quando("^preencher meu número de telefone \"([^\"]*)\"$")
 	public void preencherMeuNúmeroDeTelefone(String telefone) {
-		new InfoFormPage(driver).campoTelefone(telefone);
+		infoFormPage.inserirTelefone(telefone);
 	}
 
 	@Quando("^selecionar meu país \"([^\"]*)\"$")
 	public void selecionarMeuPaís(String pais) {
-		new InfoFormPage(driver).campoPais(pais);
+		infoFormPage.inserirPais(pais);
 	}
 
 	@Quando("^preencher minha cidade \"([^\"]*)\"$")
 	public void preencherMinhaCidade(String cidade) {
-		new InfoFormPage(driver).campoCidade(cidade);
+		infoFormPage.inserirCidade(cidade);
 	}
 
 	@Quando("^preencher meu endereço \"([^\"]*)\"$")
 	public void preencherMeuEndereço(String endereco) {
-		new InfoFormPage(driver).campoEndereco(endereco);
+		infoFormPage.inserirEndereco(endereco);
 	}
 
 	@Quando("^preencher meu estado \"([^\"]*)\"$")
 	public void preencherMeuEstado(String estado) {
-		new InfoFormPage(driver).campoEstado(estado);
+		infoFormPage.inserirEstado(estado);
 	}
 
 	@Quando("^preencher meu cep \"([^\"]*)\"$")
 	public void preencherMeuCep(String cep) {
-		new InfoFormPage(driver).campoCep(cep);
+		infoFormPage.inserirCep(cep);
 	}
 
 	@Quando("^selecionar a opção para aceitar os termos$")
 	public void selecionarAOpçãoParaAceitarOsTermos() {
-		new InfoFormPage(driver).campoAceitaTermos();
+		infoFormPage.clicarEmAceitarTermos();
 	}
 
 	@Quando("^clicar em registrar$")
 	public void clicarEmRegistrar() throws Exception {
-		new InfoFormPage(driver).botaoRegistra();
+		infoFormPage.clicarNoBotaoRegistrar();
+	}
+	
+	@Então("^devo receber a informação que o usuario já existe \"([^\"]*)\"$")
+	public void devo_receber_a_informação_que_o_usuario_já_existe(String informacaoEsperada)  {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
+		infoFormPage.verificarSeUsuarioJaExiste(informacaoEsperada);
+	}
+	
+	@Então("^devo receber a informação com o nome de usuario\"([^\"]*)\"$")
+	public void devo_receber_a_informação_com_o_nome_de_usuario(String informacaoEsperada)  {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+	    jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 500);");
+		infoFormPage.verificarSeAContaFoiCriadaComSucesso(informacaoEsperada);
 	}
 
-	@Então("^devo receber a informação \"([^\"]*)\"$")
-	public void devoReceberAInformação(String informacaoEsperada) {
-		new InfoFormPage(driver).informacaoEsperada(informacaoEsperada);
-	}
+	
 
-	@After(order = 1)
-	public void screenshot(Scenario cenario) {
+	@After
+	public void finalizaTest(Scenario cenario) {
 		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	}
 
-	@After(order = 0)
-	public void fecharBrowser() {
 		driver.quit();
 	}
 }

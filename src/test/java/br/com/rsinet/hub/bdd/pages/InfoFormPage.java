@@ -1,86 +1,135 @@
 package br.com.rsinet.hub.bdd.pages;
 
-import static org.junit.Assert.assertEquals;
-
-import org.openqa.selenium.By;
+import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+
+import br.com.rsinet.hub.bdd.suport.Wait;
 
 public class InfoFormPage {
 
-private WebDriver driver;
-	
+	private WebDriver driver;
+
 	public InfoFormPage(WebDriver driver) {
-		this.driver = driver;
+	PageFactory.initElements(driver, this);
+	}
+
+	@FindBy(how = How.NAME, using = "usernameRegisterPage")
+	private WebElement campoApelido;
+	
+	@FindBy(how = How.NAME, using = "passwordRegisterPage")
+	private WebElement campoSenha;
+	
+	@FindBy(how = How.NAME, using = "confirm_passwordRegisterPage")
+	private WebElement campoConfirmaSenha;
+	
+	@FindBy(how = How.NAME, using = "emailRegisterPage")
+	private WebElement campoEmail;
+	
+	@FindBy(how = How.NAME, using = "first_nameRegisterPage")
+	private WebElement campoPrimeiroNome;
+	
+	@FindBy(how = How.NAME, using = "last_nameRegisterPage")
+	private WebElement campoUltimoNome;
+	
+	@FindBy(how = How.NAME, using = "phone_numberRegisterPage")
+	private WebElement campoTelefone;
+	
+	@FindBy(how = How.NAME, using = "countryListboxRegisterPage")
+	private WebElement campoPais;
+	
+	@FindBy(how = How.NAME, using = "cityRegisterPage")
+	private WebElement campoCidade;
+	
+	@FindBy(how = How.NAME, using = "addressRegisterPage")
+	private WebElement campoEndereco;
+	
+	@FindBy(how = How.NAME, using = "state_/_province_/_regionRegisterPage")
+	private WebElement campoEstado;
+	
+	@FindBy(how = How.NAME, using ="postal_codeRegisterPage")
+	private WebElement campoCep;
+	
+	@FindBy(how = How.NAME, using ="i_agree")
+	private WebElement campoDeTermos;
+	
+	@FindBy(how = How.ID, using ="register_btnundefined")
+	private WebElement botaoDeRegistrarConta;
+	
+	@FindBy(how = How.ID, using ="menuUserLink")
+	private WebElement usuarioLogado;
+	
+	@FindBy(how = How.XPATH, using ="//*[@id=\"registerPage\"]/article/sec-form/div[2]/label[1]")
+	private WebElement mensagemUsuarioJaExiste;
+	
+	public void inserirApelidoDoUsuario(String apelidoUsuario) {
+		campoApelido.sendKeys(apelidoUsuario);
 	}
 	
-	public void campoApelido(String nomeUsuario) {
-		driver.findElement(By.name("usernameRegisterPage")).sendKeys(nomeUsuario);
+	public void inserirSenhaDoUsuario(String senha) {
+		campoSenha.sendKeys(senha);
 	}
 	
-	public void campoSenha(String senha) {
-		driver.findElement(By.xpath("//*[@id=\"formCover\"]/div[1]/div[2]/sec-view[1]/div/input")).sendKeys(senha);
+	public void inserirNovamenteSenhaDoUsuario(String confirmaSenha) {
+		campoConfirmaSenha.sendKeys(confirmaSenha);
+	}
+		
+	public void inserirEmailDoUsuario(String email) {
+		campoEmail.sendKeys(email);
 	}
 	
-	public void campoConfirmaSenha(String confirmaSenha) {
-		driver.findElement(By.xpath("//*[@id=\"formCover\"]/div[1]/div[2]/sec-view[2]/div/input")).sendKeys(confirmaSenha);
+	public void inserirPrimeiroNome(String nome) {
+		campoPrimeiroNome.sendKeys(nome);
 	}
 	
-	public void campoEmail(String email) {
-		driver.findElement(By.name("emailRegisterPage")).sendKeys(email);
+	public void inserirUltimoNome(String ultimoNome) {
+		campoUltimoNome.sendKeys(ultimoNome);
 	}
 	
-	public void campoPrimeiroNome(String nome) {
-		driver.findElement(By.name("first_nameRegisterPage")).sendKeys(nome);
+	public void inserirTelefone(String telefone) {
+		campoTelefone.sendKeys(telefone);
 	}
 	
-	public void campoUltimoNome(String ultimoNome) {
-		driver.findElement(By.name("last_nameRegisterPage")).sendKeys(ultimoNome);
+	public void inserirPais(String pais) {
+		new Select(campoPais).selectByVisibleText(pais);
 	}
 	
-	public void campoTelefone(String telefone) {
-		driver.findElement(By.name("phone_numberRegisterPage")).sendKeys(telefone);
+	public void inserirCidade(String cidade) {
+		campoCidade.sendKeys(cidade);
+	}
+
+	public void inserirEndereco(String endereco) {
+		campoEndereco.sendKeys(endereco);
 	}
 	
-	public void campoPais(String pais) {
-		WebElement selecionaPais = driver.findElement(By.name("countryListboxRegisterPage"));
-		new Select(selecionaPais).selectByVisibleText(pais);
+	public void inserirEstado(String estado) {
+		campoEstado.sendKeys(estado);
+	}
+
+	public void inserirCep(String cep) {
+		campoCep.sendKeys(cep);
+	}
+
+	public void clicarEmAceitarTermos() {
+		campoDeTermos.click();
 	}
 	
-	public void campoCidade(String cidade) {
-		driver.findElement(By.name("cityRegisterPage")).sendKeys(cidade);
+	public void clicarNoBotaoRegistrar() {
+		botaoDeRegistrarConta.click();
+		
 	}
 	
-	public void campoEndereco(String endereco) {
-		driver.findElement(By.name("addressRegisterPage")).sendKeys(endereco);
+	public void verificarSeAContaFoiCriadaComSucesso(String informacaoEsperada) {
+		Assert.assertEquals(usuarioLogado.getText(), informacaoEsperada);
 	}
 	
-	public void campoEstado(String estado) {
-		driver.findElement(By.name("state_/_province_/_regionRegisterPage")).sendKeys(estado);
+	public void verificarSeUsuarioJaExiste(String informacaoEsperada) {
+		Assert.assertEquals(mensagemUsuarioJaExiste.getText(), informacaoEsperada);
 	}
-	
-	public void campoCep(String cep) {
-		driver.findElement(By.name("postal_codeRegisterPage")).sendKeys(cep);
-	}
-	
-	public void campoAceitaTermos() {
-		driver.findElement(By.name("i_agree")).click();
-	}
-	
-	public void botaoRegistra() throws Exception {
-		driver.findElement(By.id("register_btnundefined")).click();
-		Thread.sleep(500);
-	}
-	
-	public void informacaoEsperada(String informacaoEsperada) {
-		if (informacaoEsperada.equals("User name already exists")) {
-			String informacaoRecebida = driver
-					.findElement(By.xpath("//*[@id=\"registerPage\"]/article/sec-form/div[2]/label[1]")).getText();
-			assertEquals(informacaoEsperada, informacaoRecebida);
-		} else {
-			String informacaoRecebida = driver.findElement(By.id("menuUserLink")).getText();
-			assertEquals(informacaoEsperada, informacaoRecebida);
-		}
-	}
+
 }

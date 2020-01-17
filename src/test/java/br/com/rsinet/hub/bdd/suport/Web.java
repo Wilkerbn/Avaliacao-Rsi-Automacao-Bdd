@@ -12,6 +12,7 @@ public class Web {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://advantageonlineshopping.com/#/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		
 		return driver;
 	}

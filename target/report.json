@@ -9,27 +9,18 @@
     "line": 3,
     "elements": [
       {
-        "line": 31,
+        "line": 30,
         "name": "Deve inserir uma conta",
         "description": "",
         "id": "cadastro-de-usuario;deve-inserir-uma-conta;;2",
         "after": [
           {
             "result": {
-              "duration": 300421300,
+              "duration": 1194925800,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeUsuarioTest.screenshot(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 630067500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.fecharBrowser()"
+              "location": "CadastroDeUsuarioTest.finalizaTest(Scenario)"
             }
           }
         ],
@@ -38,10 +29,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7854423900,
+              "duration": 11246620900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
@@ -50,10 +41,10 @@
           },
           {
             "result": {
-              "duration": 4672255800,
+              "duration": 116718600,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "selecionar a opção usuário",
             "match": {
               "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
@@ -62,10 +53,10 @@
           },
           {
             "result": {
-              "duration": 490248300,
+              "duration": 514760300,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "clicar em criar uma nova conta",
             "match": {
               "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
@@ -74,15 +65,15 @@
           },
           {
             "result": {
-              "duration": 389672800,
+              "duration": 345975100,
               "status": "passed"
             },
-            "line": 13,
-            "name": "preencher meu nome de usuário \"Wilkerbn15\"",
+            "line": 12,
+            "name": "preencher meu nome de usuário \"Wilkerbn204\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn15",
+                  "val": "Wilkerbn204",
                   "offset": 31
                 }
               ],
@@ -95,10 +86,10 @@
           },
           {
             "result": {
-              "duration": 164377000,
+              "duration": 157627500,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "preencher minha senha \"Wbn000001\"",
             "match": {
               "arguments": [
@@ -116,10 +107,10 @@
           },
           {
             "result": {
-              "duration": 150511700,
+              "duration": 130935900,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "preencher a confirmação da senha \"Wbn000001\"",
             "match": {
               "arguments": [
@@ -137,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 281509600,
+              "duration": 245938400,
               "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "preencher meu e-mail \"wilker.bn@hotmail.com\"",
             "match": {
               "arguments": [
@@ -158,10 +149,10 @@
           },
           {
             "result": {
-              "duration": 121453000,
+              "duration": 102811600,
               "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "preencher meu primeiro nome \"Wilker\"",
             "match": {
               "arguments": [
@@ -179,10 +170,10 @@
           },
           {
             "result": {
-              "duration": 183843100,
+              "duration": 113640400,
               "status": "passed"
             },
-            "line": 18,
+            "line": 17,
             "name": "preencher meu ultimo nome \"Nogueira\"",
             "match": {
               "arguments": [
@@ -200,10 +191,10 @@
           },
           {
             "result": {
-              "duration": 152367600,
+              "duration": 146999700,
               "status": "passed"
             },
-            "line": 19,
+            "line": 18,
             "name": "preencher meu número de telefone \"11911111111\"",
             "match": {
               "arguments": [
@@ -221,10 +212,10 @@
           },
           {
             "result": {
-              "duration": 101453600,
+              "duration": 343595600,
               "status": "passed"
             },
-            "line": 20,
+            "line": 19,
             "name": "selecionar meu país \"Brazil\"",
             "match": {
               "arguments": [
@@ -242,10 +233,10 @@
           },
           {
             "result": {
-              "duration": 146942300,
+              "duration": 119271800,
               "status": "passed"
             },
-            "line": 21,
+            "line": 20,
             "name": "preencher minha cidade \"Osasco\"",
             "match": {
               "arguments": [
@@ -263,10 +254,10 @@
           },
           {
             "result": {
-              "duration": 327331200,
+              "duration": 295154800,
               "status": "passed"
             },
-            "line": 22,
+            "line": 21,
             "name": "preencher meu endereço \"R. Autonomistas 1\"",
             "match": {
               "arguments": [
@@ -284,10 +275,10 @@
           },
           {
             "result": {
-              "duration": 91710800,
+              "duration": 83652800,
               "status": "passed"
             },
-            "line": 23,
+            "line": 22,
             "name": "preencher meu estado \"SP\"",
             "match": {
               "arguments": [
@@ -305,10 +296,10 @@
           },
           {
             "result": {
-              "duration": 142886700,
+              "duration": 128964100,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "preencher meu cep \"11111-111\"",
             "match": {
               "arguments": [
@@ -326,10 +317,10 @@
           },
           {
             "result": {
-              "duration": 80936800,
+              "duration": 77340300,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "selecionar a opção para aceitar os termos",
             "match": {
               "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
@@ -338,10 +329,10 @@
           },
           {
             "result": {
-              "duration": 571371100,
+              "duration": 89741200,
               "status": "passed"
             },
-            "line": 26,
+            "line": 25,
             "name": "clicar em registrar",
             "match": {
               "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
@@ -350,20 +341,19 @@
           },
           {
             "result": {
-              "duration": 26206600,
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Wilkerbn15]\u003e but was:\u003c[]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat br.com.rsinet.hub.bdd.pages.InfoFormPage.informacaoEsperada(InfoFormPage.java:83)\r\n\tat br.com.rsinet.hub.bdd.steps.CadastroDeUsuarioTest.devoReceberAInformação(CadastroDeUsuarioTest.java:116)\r\n\tat ✽.Então devo receber a informação \"Wilkerbn15\"(features/cadastroDeUsuarioTest.feature:27)\r\n",
-              "status": "failed"
+              "duration": 551487700,
+              "status": "passed"
             },
-            "line": 27,
-            "name": "devo receber a informação \"Wilkerbn15\"",
+            "line": 26,
+            "name": "devo receber a informação com o nome de usuario\"Wilkerbn204\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn15",
-                  "offset": 27
+                  "val": "Wilkerbn204",
+                  "offset": 48
                 }
               ],
-              "location": "CadastroDeUsuarioTest.devoReceberAInformação(String)"
+              "location": "CadastroDeUsuarioTest.devo_receber_a_informação_com_o_nome_de_usuario(String)"
             },
             "matchedColumns": [
               12
@@ -372,10 +362,6 @@
           }
         ],
         "tags": [
-          {
-            "line": 8,
-            "name": "@cadastro_de_usuario"
-          },
           {
             "line": 2,
             "name": "@regressivo"
@@ -383,27 +369,18 @@
         ]
       },
       {
-        "line": 32,
-        "name": "Deve inserir uma conta",
+        "line": 54,
+        "name": "Deve informar que a conta já foi adicionada",
         "description": "",
-        "id": "cadastro-de-usuario;deve-inserir-uma-conta;;3",
+        "id": "cadastro-de-usuario;deve-informar-que-a-conta-já-foi-adicionada;;2",
         "after": [
           {
             "result": {
-              "duration": 362155500,
+              "duration": 947934000,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroDeUsuarioTest.screenshot(Scenario)"
-            }
-          },
-          {
-            "result": {
-              "duration": 615132700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.fecharBrowser()"
+              "location": "CadastroDeUsuarioTest.finalizaTest(Scenario)"
             }
           }
         ],
@@ -412,10 +389,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6763463000,
+              "duration": 9946782700,
               "status": "passed"
             },
-            "line": 10,
+            "line": 33,
             "name": "que estou acessando a aplicação",
             "match": {
               "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
@@ -424,10 +401,10 @@
           },
           {
             "result": {
-              "duration": 5870698200,
+              "duration": 87506300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 34,
             "name": "selecionar a opção usuário",
             "match": {
               "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
@@ -436,10 +413,10 @@
           },
           {
             "result": {
-              "duration": 17968150900,
+              "duration": 496898800,
               "status": "passed"
             },
-            "line": 12,
+            "line": 35,
             "name": "clicar em criar uma nova conta",
             "match": {
               "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
@@ -448,15 +425,15 @@
           },
           {
             "result": {
-              "duration": 184433800,
+              "duration": 359786000,
               "status": "passed"
             },
-            "line": 13,
-            "name": "preencher meu nome de usuário \"Wilkerbn15\"",
+            "line": 36,
+            "name": "preencher meu nome de usuário \"Wilkerbn156\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn15",
+                  "val": "Wilkerbn156",
                   "offset": 31
                 }
               ],
@@ -469,10 +446,10 @@
           },
           {
             "result": {
-              "duration": 148525100,
+              "duration": 150786600,
               "status": "passed"
             },
-            "line": 14,
+            "line": 37,
             "name": "preencher minha senha \"Wbn000001\"",
             "match": {
               "arguments": [
@@ -490,10 +467,10 @@
           },
           {
             "result": {
-              "duration": 144719500,
+              "duration": 142248300,
               "status": "passed"
             },
-            "line": 15,
+            "line": 38,
             "name": "preencher a confirmação da senha \"Wbn000001\"",
             "match": {
               "arguments": [
@@ -511,10 +488,10 @@
           },
           {
             "result": {
-              "duration": 387237700,
+              "duration": 381673700,
               "status": "passed"
             },
-            "line": 16,
+            "line": 39,
             "name": "preencher meu e-mail \"wilker.bn@hotmail.com\"",
             "match": {
               "arguments": [
@@ -532,10 +509,10 @@
           },
           {
             "result": {
-              "duration": 119078100,
+              "duration": 111846700,
               "status": "passed"
             },
-            "line": 17,
+            "line": 40,
             "name": "preencher meu primeiro nome \"Wilker\"",
             "match": {
               "arguments": [
@@ -553,10 +530,10 @@
           },
           {
             "result": {
-              "duration": 135777000,
+              "duration": 117754300,
               "status": "passed"
             },
-            "line": 18,
+            "line": 41,
             "name": "preencher meu ultimo nome \"Nogueira\"",
             "match": {
               "arguments": [
@@ -574,10 +551,10 @@
           },
           {
             "result": {
-              "duration": 150938800,
+              "duration": 130741700,
               "status": "passed"
             },
-            "line": 19,
+            "line": 42,
             "name": "preencher meu número de telefone \"11911111111\"",
             "match": {
               "arguments": [
@@ -595,10 +572,10 @@
           },
           {
             "result": {
-              "duration": 97794500,
+              "duration": 169937300,
               "status": "passed"
             },
-            "line": 20,
+            "line": 43,
             "name": "selecionar meu país \"Brazil\"",
             "match": {
               "arguments": [
@@ -616,10 +593,10 @@
           },
           {
             "result": {
-              "duration": 140443600,
+              "duration": 121621600,
               "status": "passed"
             },
-            "line": 21,
+            "line": 44,
             "name": "preencher minha cidade \"Osasco\"",
             "match": {
               "arguments": [
@@ -637,10 +614,10 @@
           },
           {
             "result": {
-              "duration": 195784500,
+              "duration": 214008700,
               "status": "passed"
             },
-            "line": 22,
+            "line": 45,
             "name": "preencher meu endereço \"R. Autonomistas 1\"",
             "match": {
               "arguments": [
@@ -658,10 +635,10 @@
           },
           {
             "result": {
-              "duration": 86711900,
+              "duration": 85598100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 46,
             "name": "preencher meu estado \"SP\"",
             "match": {
               "arguments": [
@@ -679,10 +656,10 @@
           },
           {
             "result": {
-              "duration": 133110900,
+              "duration": 126513200,
               "status": "passed"
             },
-            "line": 24,
+            "line": 47,
             "name": "preencher meu cep \"11111-111\"",
             "match": {
               "arguments": [
@@ -700,10 +677,10 @@
           },
           {
             "result": {
-              "duration": 79961600,
+              "duration": 84320400,
               "status": "passed"
             },
-            "line": 25,
+            "line": 48,
             "name": "selecionar a opção para aceitar os termos",
             "match": {
               "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
@@ -712,10 +689,10 @@
           },
           {
             "result": {
-              "duration": 571836300,
+              "duration": 76411100,
               "status": "passed"
             },
-            "line": 26,
+            "line": 49,
             "name": "clicar em registrar",
             "match": {
               "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
@@ -724,19 +701,19 @@
           },
           {
             "result": {
-              "duration": 47234500,
+              "duration": 1077696900,
               "status": "passed"
             },
-            "line": 27,
-            "name": "devo receber a informação \"User name already exists\"",
+            "line": 50,
+            "name": "devo receber a informação que o usuario já existe \"User name already exists\"",
             "match": {
               "arguments": [
                 {
                   "val": "User name already exists",
-                  "offset": 27
+                  "offset": 51
                 }
               ],
-              "location": "CadastroDeUsuarioTest.devoReceberAInformação(String)"
+              "location": "CadastroDeUsuarioTest.devo_receber_a_informação_que_o_usuario_já_existe(String)"
             },
             "matchedColumns": [
               12
@@ -745,10 +722,6 @@
           }
         ],
         "tags": [
-          {
-            "line": 8,
-            "name": "@cadastro_de_usuario"
-          },
           {
             "line": 2,
             "name": "@regressivo"
@@ -757,10 +730,10 @@
       }
     ],
     "name": "Cadastro de usuario",
-    "description": "\nComo um usuário quero preencher minhas informações\nPara que eu possa ter meu cadastro no site",
+    "description": "Como um usuário quero preencher minhas informações\nPara que eu possa ter meu cadastro no site",
     "id": "cadastro-de-usuario",
     "keyword": "Funcionalidade",
-    "uri": "features/cadastroDeUsuarioTest.feature",
+    "uri": "src/test/resources/features/cadastroDeUsuarioTest.feature",
     "tags": [
       {
         "line": 2,
