@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-				features = "src/test/resources/features/cadastroDeUsuarioTest.feature",
+				features = "src/test/resources/features/consultaDeProdutoCampoPesquisaTest.feature",
 				//features = "classpath:features",
 				glue = "br.com.rsinet.hub.bdd.steps",
 				monochrome = true,
@@ -20,3 +20,4 @@ import cucumber.api.junit.Cucumber;
 public class Runner {
 	
 }
+

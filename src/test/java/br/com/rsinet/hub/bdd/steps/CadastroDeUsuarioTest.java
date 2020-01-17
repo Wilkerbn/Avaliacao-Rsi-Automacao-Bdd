@@ -137,13 +137,13 @@ public class CadastroDeUsuarioTest {
 
 	@After
 	public void finalizaTest(Scenario cenario) {
-		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		try {
-			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		driver.quit();
+//		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//		try {
+//			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//
+//		driver.quit();
 	}
 }

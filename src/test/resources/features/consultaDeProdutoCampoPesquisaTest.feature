@@ -8,10 +8,12 @@ Esquema do Cenário:: Deve efetuar uma pesquisa
     Dado que estou na tela aplicacao
     Quando clicar na opcao de pesquisa
     E inserir a categoria de meu produto "<categoria>"
-    E selecionar o produto desejado "<produto>"
+    E selecionar um determinado produto "<produto>"
     Então devo visualizar o meu produto "<confirmaProduto>"
     
     
 Exemplos: 
-      | categoria  | produto                | confirmaProduto        |
-      | Laptop     | HP PAVILION 15Z LAPTOP | HP PAVILION 15Z LAPTOP |
+      | categoria  | produto                      | confirmaProduto              |
+      | Laptop     | HP PAVILION 15Z TOUCH LAPTOP | HP PAVILION 15Z TOUCH LAPTOP |
+      
+   
