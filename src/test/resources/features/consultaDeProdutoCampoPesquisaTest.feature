@@ -13,7 +13,25 @@ Esquema do Cenário:: Deve efetuar uma pesquisa
     
     
 Exemplos: 
-      | categoria  | produto                      | confirmaProduto              |
-      | Laptop     | HP PAVILION 15Z TOUCH LAPTOP | HP PAVILION 15Z TOUCH LAPTOP |
-      
+      | categoria  | produto                        | confirmaProduto                |
+      | Laptop     | HP PAVILION 15Z TOUCH LAPTOP   | HP PAVILION 15Z TOUCH LAPTOP   |
+      | Mice       | HP Z3600 WIRELESS MOUSE        | HP Z3600 WIRELESS MOUSE        |
+      | Speakers   | HP ROAR MINI WIRELESS SPEAKER  | HP ROAR MINI WIRELESS SPEAKER  |
+
    
+Esquema do Cenário:: Deve efetuar uma pesquisa de produto invalido
+    Dado que estou na tela aplicacao
+    Quando clicar na opcao de pesquisa
+    E inserir a categoria invalida de meu produto "<categoria>"
+    Então devo visualizar a mensagem de confirmacao "<confirmaProduto>"
+    
+    
+Exemplos: 
+      | categoria  | confirmaProduto |
+      | Video Game | No results for  |
+      | Celular    | No results for  |
+      | Carro      | No results for  |
+
+      
+      
+      

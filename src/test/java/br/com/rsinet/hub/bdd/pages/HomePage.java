@@ -2,20 +2,21 @@ package br.com.rsinet.hub.bdd.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import br.com.rsinet.hub.bdd.suport.Wait;
 
 
-public class HomePage {
 
-	private WebDriver driver;
+public class HomePage extends Wait {
 	
 	public HomePage(WebDriver driver) {
+		super (driver);
 		PageFactory.initElements(driver, this);
 		}
 	
@@ -25,8 +26,34 @@ public class HomePage {
 	@FindBy (how = How.ID, using = "autoComplete")
 	private WebElement campoParaEscreverCategoria;
 	
+	@FindBy (how = How.CLASS_NAME, using = "top6Products")
+	private WebElement campoComTopProdutosLocalizados;
+	
 	@FindBy (how = How.XPATH, using = "//*[@id=\"Description\"]/h1")
 	private WebElement produtoLocalizado;
+	
+	@FindBy (how = How.XPATH, using = "//*[@id=\"our_products\"]/div[2]")
+	private WebElement categoriaTelaPrincipalLocalizada;
+	
+	@FindBy (how = How.XPATH, using = "//div[@class='cell categoryRight']")
+	private WebElement produtosTelaPrincipalLocalizados;
+	
+	@FindBy (how = How.NAME, using ="quantity")
+	private WebElement campoParaInserirQuantidadeDeProdutos;
+	
+	@FindBy (how = How.NAME, using = "save_to_cart")
+	private WebElement botaoParaAdicionarComprasNoCarrinho;
+	
+	@FindBy (how = How.XPATH, using = "//*[@id=\"productProperties\"]/label")
+	private WebElement mensagemInformandoQuantidadeInvalida;
+	
+	@FindBy (how = How.XPATH, using = "//*[@id=\"searchPage\"]/div[3]/div/label/span")
+	private WebElement mensagemInformandoProdutoInvalido;
+	
+	
+	public void pesquisaProdutoInvalidoNaLupa(String categoria) {
+		campoParaEscreverCategoria.sendKeys(categoria +Keys.ENTER);
+	}
 		
 	public void clicarNaLupaDePesquisa() {
 		campoLupaDePesquisa.click();
@@ -36,92 +63,42 @@ public class HomePage {
 		campoParaEscreverCategoria.sendKeys(categoria);
 	}
 	
+	public void selecionaProdutoDesejadoLupa(String produto) {
+		campoComTopProdutosLocalizados.findElement(By.xpath("//*[. ='" + produto + "']")).click();
+	}
+	
 	public void verificaProdutoSelecionado(String confirmaProduto) {
 		String produtoObtido = produtoLocalizado.getText();
 		Assert.assertEquals(confirmaProduto, produtoObtido);
 	}
+	
+	public void clicarNaCategoriaDoProdutoNaTelaPrincipal(String categoria) {
+		categoriaTelaPrincipalLocalizada.findElement(By.xpath("//*[.='"+ categoria +"']")).click();
+	}
+	
+	public void clicarNoProdutoEscolhidoNaTelaPrincipal(String produto) {
+		produtosTelaPrincipalLocalizados.findElement(By.xpath("//*[.='"+ produto +"']")).click();
+	}
+	
+	public void inserirQuantidadeDeProdutosNaTelaPrincipal(String quantidadeDeProdutos) {
+		campoParaInserirQuantidadeDeProdutos.sendKeys(quantidadeDeProdutos);
+	}
 		
-	private static WebElement elemento = null;
-	
-	
-	public static WebElement selecionaProdutoLupa(WebDriver driver, String produto) throws Exception {
-		elemento = driver.findElement(By.xpath("//*[. ='" + produto + "']"));
-		return elemento;
+	public void inserirProdutosNoCarrinhoDeCompras() {
+		botaoParaAdicionarComprasNoCarrinho.click();
+		
 	}
 	
-	
-	
-	
-	
-	
-	public static String produtoLupaValidoObtido(WebDriver driver) {
-		WebElement elemento = driver.findElement(By.xpath("//*[@id=\"Description\"]/h1"));
-		String produtoObtido = elemento.getText();
-		return produtoObtido;
+	public void verificaMensagemInvalidaDeQuantidadeDeProdutos(String confirmaProduto) {
+		esperarCarregarPagina(); usaScrollNaPagina();
+		String mensagemInvalidaObtida = mensagemInformandoQuantidadeInvalida.getText();
+		Assert.assertEquals(confirmaProduto, mensagemInvalidaObtida);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	public static WebElement pesquisaCategoriaTelaPrincipal(WebDriver driver, String categoria) {
-		elemento = driver.findElement(By.xpath("//*[. ='" + categoria + "']"));
-		return elemento;
-	}
-
-	public static WebElement pesquisaProdutoTela(WebDriver driver, String produto) {
-		elemento = driver.findElement(By.xpath("//*[. ='" + produto + "']"));
-		return elemento;
-	}
-
-	public static WebElement clicaLupaParaPesquisarProduto(WebDriver driver) {
-		elemento = driver.findElement(By.id("menuSearch"));
-		return elemento;
-	}
-
-	public static WebElement pesquisaProdutoLupa(WebDriver driver) {
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-	    jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1500);");
-		elemento = driver.findElement(By.id("autoComplete"));
-		return elemento;
-	}
-
-
-	
-
-	
-	public static String produtoLupaInvalidoObtido(WebDriver driver) {
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-	    jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 2000);");
-		WebElement elemento = driver.findElement(By.xpath("//*[@id=\"searchPage\"]/div[3]/div/label/span"));
-		String produtoInvalidoObtido = elemento.getText();
-		return produtoInvalidoObtido;
-	}
-	
-	public static String produtoTelaPrincipalValidoObtido(WebDriver driver, String produto) {
-		WebElement elemento = driver.findElement(By.xpath("//*[. ='" + produto + "']"));
-		String produtoValido = elemento.getText().toUpperCase();
-		return produtoValido;
-	}
-	
-	public static WebElement digitaQuantidadeDeProdutos(WebDriver driver) {
-		elemento = driver.findElement(By.name("quantity"));
-		return elemento;
-	}
-	
-	public static WebElement inserirProdutosCarrinho(WebDriver driver) {
-		elemento = driver.findElement(By.name("save_to_cart"));
-		return elemento;
-	}
-	
-	public static String valorInvalidoDeProdutos(WebDriver driver) {
-		elemento = driver.findElement(By.xpath("//*[@id=\"productProperties\"]/label"));
-		String quantidadeInvalidaProduto = elemento.getText();
-		return quantidadeInvalidaProduto;
+	public void verificarMensagemInvalidaDeProdutoPesquisado(String confirmaProduto) {
+		esperarCarregarPagina();
+		String mensagemProdutoInvalidoObtido = mensagemInformandoProdutoInvalido.getText();
+		Assert.assertTrue(mensagemProdutoInvalidoObtido.contains(confirmaProduto));
 	}
 
 }

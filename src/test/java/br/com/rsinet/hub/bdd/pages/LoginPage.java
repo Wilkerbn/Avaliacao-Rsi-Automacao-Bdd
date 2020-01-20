@@ -7,9 +7,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+import br.com.rsinet.hub.bdd.suport.Wait;
+
+public class LoginPage extends Wait{
 
 	public LoginPage(WebDriver driver) {
+		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
@@ -20,6 +23,7 @@ public class LoginPage {
 	private WebElement botaoCriarNovaConta;
 
 	public void clicaNoBotaoUsuario() {
+		esperarCarregarPagina();
 		botaoUsuario.click();
 	}
 

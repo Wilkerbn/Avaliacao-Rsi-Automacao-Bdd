@@ -2,23 +2,15 @@ package br.com.rsinet.hub.bdd.steps;
 
 
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.commons.io.FileUtils;
-
 import org.junit.Rule;
 import org.junit.rules.TestName;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import br.com.rsinet.hub.bdd.pages.InfoFormPage;
 import br.com.rsinet.hub.bdd.pages.LoginPage;
+import br.com.rsinet.hub.bdd.suport.Generator;
+import br.com.rsinet.hub.bdd.suport.Screenshot;
 import br.com.rsinet.hub.bdd.suport.Web;
-
-import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
@@ -121,29 +113,18 @@ public class CadastroDeUsuarioTest {
 	
 	@Então("^devo receber a informação que o usuario já existe \"([^\"]*)\"$")
 	public void devo_receber_a_informação_que_o_usuario_já_existe(String informacaoEsperada)  {
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-        jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 1000);");
 		infoFormPage.verificarSeUsuarioJaExiste(informacaoEsperada);
+		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " cadastroJaExiste.png");
 	}
 	
 	@Então("^devo receber a informação com o nome de usuario\"([^\"]*)\"$")
 	public void devo_receber_a_informação_com_o_nome_de_usuario(String informacaoEsperada)  {
-		JavascriptExecutor jse = (JavascriptExecutor)driver;
-	    jse.executeAsyncScript("window.setTimeout(arguments[arguments.length - 1], 500);");
 		infoFormPage.verificarSeAContaFoiCriadaComSucesso(informacaoEsperada);
+		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " cadastroValido.png");
 	}
 
-	
-
 	@After
-	public void finalizaTest(Scenario cenario) {
-//		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//		try {
-//			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//
-//		driver.quit();
+	public void finaliza() {
+		Web.killDriver(driver);
 	}
 }

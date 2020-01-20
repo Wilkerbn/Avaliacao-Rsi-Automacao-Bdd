@@ -1,16 +1,11 @@
 package br.com.rsinet.hub.bdd.steps;
 
-import java.io.File;
-import java.io.IOException;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import br.com.rsinet.hub.bdd.pages.HomePage;
+import br.com.rsinet.hub.bdd.suport.Generator;
+import br.com.rsinet.hub.bdd.suport.Screenshot;
 import br.com.rsinet.hub.bdd.suport.Web;
-import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
@@ -37,26 +32,31 @@ public class ConsultaDeProdutoCampoPesquisaTest {
 		homePage.escreverProduto(categoria);
 	}
 	
+	@Quando("^inserir a categoria invalida de meu produto \"([^\"]*)\"$")
+	public void inserirACategoriaInvalidaDeMeuProduto(String categoria)  {
+		homePage.pesquisaProdutoInvalidoNaLupa(categoria);
+	}
+	
 	@Quando("^selecionar um determinado produto \"([^\"]*)\"$")
-	public void selecionarUmDeterminadoProduto(String produto) throws Throwable {
-		HomePage.selecionaProdutoLupa(driver, produto).click();
+	public void selecionarUmDeterminadoProduto(String produto)  {
+		homePage.selecionaProdutoDesejadoLupa(produto);
 	}	
 
 	@Então("^devo visualizar o meu produto \"([^\"]*)\"$")
 	public void devo_visualizar_o_meu_produto(String confirmaProduto){
 		homePage.verificaProdutoSelecionado(confirmaProduto);
+		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " consultaDeProdutoCampoPesquisaValido.png");
 	}
 	
+	@Então("^devo visualizar a mensagem de confirmacao \"([^\"]*)\"$")
+	public void devoVisualizarAMensagemDeConfirmacao(String confirmaProduto)  {
+		homePage.verificarMensagemInvalidaDeProdutoPesquisado(confirmaProduto);
+		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " consultaDeProdutoCampoPesquisaInvalido.png");
+	}
+			
 	@After
-	public void finalizaTest(Scenario cenario) {
-		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		try {
-			FileUtils.copyFile(file, new File("target/screenshot/" + cenario.getId() + ".jpg"));
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		driver.quit();
+	public void finaliza() {
+		Web.killDriver(driver);
 	}
 
 }

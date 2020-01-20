@@ -8,8 +8,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-				features = "src/test/resources/features/consultaDeProdutoCampoPesquisaTest.feature",
-				//features = "classpath:features",
+				//features = "src/test/resources/features/cadastroDeUsuarioTest.feature",
+				features = "classpath:features",
 				glue = "br.com.rsinet.hub.bdd.steps",
 				monochrome = true,
 				plugin = {"pretty", "html:target/report-html", "json:target/report.json"},
