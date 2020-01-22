@@ -7,7 +7,6 @@ import br.com.rsinet.hub.bdd.suport.Generator;
 import br.com.rsinet.hub.bdd.suport.Screenshot;
 import br.com.rsinet.hub.bdd.suport.Web;
 import br.com.rsinet.hub.bdd.utility.Constant;
-import br.com.rsinet.hub.bdd.utility.ExcelUtils;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
