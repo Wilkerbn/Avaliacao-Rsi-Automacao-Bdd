@@ -4,33 +4,21 @@ Funcionalidade: Consulta de produto por campo de pesquisa
   Como um usuário quero efetuar uma pesquisa de produto através do campo de pesquisa de produtos
  
 @consulta_de_produto_campo_pesquisa
-Esquema do Cenário:: Deve efetuar uma pesquisa 
+Cenário:: Deve efetuar uma pesquisa 
     Dado que estou na tela aplicacao
     Quando clicar na opcao de pesquisa
-    E inserir a categoria de meu produto "<categoria>"
-    E selecionar um determinado produto "<produto>"
-    Então devo visualizar o meu produto "<confirmaProduto>"
-    
-    
-Exemplos: 
-      | categoria  | produto                        | confirmaProduto                |
-      | Laptop     | HP PAVILION 15Z TOUCH LAPTOP   | HP PAVILION 15Z TOUCH LAPTOP   |
-      | Mice       | HP Z3600 WIRELESS MOUSE        | HP Z3600 WIRELESS MOUSE        |
-      | Speakers   | HP ROAR MINI WIRELESS SPEAKER  | HP ROAR MINI WIRELESS SPEAKER  |
-
+    E inserir a categoria de meu produto 
+    E selecionar um determinado produto 
+    Então devo visualizar o meu produto 
    
-Esquema do Cenário:: Deve efetuar uma pesquisa de produto invalido
+Cenário:: Deve efetuar uma pesquisa de produto invalido
     Dado que estou na tela aplicacao
     Quando clicar na opcao de pesquisa
-    E inserir a categoria invalida de meu produto "<categoria>"
-    Então devo visualizar a mensagem de confirmacao "<confirmaProduto>"
+    E inserir a categoria invalida de meu produto 
+    Então devo visualizar a mensagem de confirmacao 
     
     
-Exemplos: 
-      | categoria  | confirmaProduto |
-      | Video Game | No results for  |
-      | Celular    | No results for  |
-      | Carro      | No results for  |
+
 
       
       

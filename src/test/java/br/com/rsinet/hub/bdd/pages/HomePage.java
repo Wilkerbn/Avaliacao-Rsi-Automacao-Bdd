@@ -51,8 +51,8 @@ public class HomePage extends Wait {
 	private WebElement mensagemInformandoProdutoInvalido;
 	
 	
-	public void pesquisaProdutoInvalidoNaLupa(String categoria) {
-		campoParaEscreverCategoria.sendKeys(categoria +Keys.ENTER);
+	public void pesquisaProdutoInvalidoNaLupa(String categoriaInvalida) {
+		campoParaEscreverCategoria.sendKeys(categoriaInvalida +Keys.ENTER);
 	}
 		
 	public void clicarNaLupaDePesquisa() {
@@ -64,10 +64,12 @@ public class HomePage extends Wait {
 	}
 	
 	public void selecionaProdutoDesejadoLupa(String produto) {
+		esperarCarregarPagina();
 		campoComTopProdutosLocalizados.findElement(By.xpath("//*[. ='" + produto + "']")).click();
 	}
 	
 	public void verificaProdutoSelecionado(String confirmaProduto) {
+		esperarCarregarPagina();
 		String produtoObtido = produtoLocalizado.getText();
 		Assert.assertEquals(confirmaProduto, produtoObtido);
 	}

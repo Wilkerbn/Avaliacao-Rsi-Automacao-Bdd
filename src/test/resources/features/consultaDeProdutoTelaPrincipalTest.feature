@@ -1,5 +1,5 @@
 #language:pt
-Funcionalidade: Consulta de produto por campo de pesquisa 
+Funcionalidade: Consulta de produto na tela principal
   
   Como um usuário quero efetuar uma pesquisa de produto através da tela principal do sistema
  

@@ -27,7 +27,7 @@ Esquema do Cenário: Deve inserir uma conta
     
 Exemplos: 
       | apelidoUsuario       | senha     | confirmaSenha  | email                         | nome       | ultimoNome  | telefone    | pais     | cidade      | endereco          | estado         | cep       | informacaoEsperada       |
-      | Wilkerbn220          | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	 |	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | Wilkerbn220         			|
+      | Wilkerbn227          | Wbn000001 | Wbn000001      | wilker.bn@hotmail.com         |	Wilker  	 |	Nogueira	 | 11911111111 | Brazil   | Osasco      | R. Autonomistas 1 | SP             | 11111-111 | Wilkerbn227         			|
       
 Esquema do Cenário: Deve informar que a conta já foi adicionada
 		Dado que estou acessando a aplicação

@@ -6,6 +6,8 @@ import br.com.rsinet.hub.bdd.pages.HomePage;
 import br.com.rsinet.hub.bdd.suport.Generator;
 import br.com.rsinet.hub.bdd.suport.Screenshot;
 import br.com.rsinet.hub.bdd.suport.Web;
+import br.com.rsinet.hub.bdd.utility.Constant;
+import br.com.rsinet.hub.bdd.utility.ExcelUtils;
 import cucumber.api.java.After;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Então;
@@ -16,10 +18,13 @@ public class ConsultaDeProdutoCampoPesquisaTest {
 	HomePage homePage;	
 	
 	
+	
 	@Dado("^que estou na tela aplicacao$")
-	public void que_estou_na_tela_aplicacao() {
+	public void que_estou_na_tela_aplicacao() throws Exception {
 		driver = Web.createChrome();
 		homePage = new HomePage(driver);
+		Constant.recebeDadosDoExcel("Produtos");
+		
 	}
 
 	@Quando("^clicar na opcao de pesquisa$")
@@ -27,30 +32,30 @@ public class ConsultaDeProdutoCampoPesquisaTest {
 		homePage.clicarNaLupaDePesquisa();
 	}
 
-	@Quando("^inserir a categoria de meu produto \"([^\"]*)\"$")
-	public void inserir_a_categoria_de_meu_produto(String categoria) {
-		homePage.escreverProduto(categoria);
+	@Quando("^inserir a categoria de meu produto$")
+	public void inserir_a_categoria_de_meu_produto() throws Exception {
+		homePage.escreverProduto(Constant.categoria());
 	}
 	
-	@Quando("^inserir a categoria invalida de meu produto \"([^\"]*)\"$")
-	public void inserirACategoriaInvalidaDeMeuProduto(String categoria)  {
-		homePage.pesquisaProdutoInvalidoNaLupa(categoria);
+	@Quando("^inserir a categoria invalida de meu produto$")
+	public void inserir_a_categoria_invalida_de_meu_produto() throws Exception  {
+		homePage.pesquisaProdutoInvalidoNaLupa(Constant.categoriaInvalida());
 	}
 	
-	@Quando("^selecionar um determinado produto \"([^\"]*)\"$")
-	public void selecionarUmDeterminadoProduto(String produto)  {
-		homePage.selecionaProdutoDesejadoLupa(produto);
+	@Quando("^selecionar um determinado produto$")
+	public void selecionar_um_determinado_produto() throws Exception  {
+		homePage.selecionaProdutoDesejadoLupa(Constant.produto().toUpperCase());
 	}	
 
-	@Então("^devo visualizar o meu produto \"([^\"]*)\"$")
-	public void devo_visualizar_o_meu_produto(String confirmaProduto){
-		homePage.verificaProdutoSelecionado(confirmaProduto);
+	@Então("^devo visualizar o meu produto$")
+	public void devo_visualizar_o_meu_produto() throws Exception{
+		homePage.verificaProdutoSelecionado(Constant.confirmaProduto());
 		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " consultaDeProdutoCampoPesquisaValido.png");
 	}
 	
-	@Então("^devo visualizar a mensagem de confirmacao \"([^\"]*)\"$")
-	public void devoVisualizarAMensagemDeConfirmacao(String confirmaProduto)  {
-		homePage.verificarMensagemInvalidaDeProdutoPesquisado(confirmaProduto);
+	@Então("^devo visualizar a mensagem de confirmacao$")
+	public void devo_visualizar_a_mensagem_de_confirmacao() throws Exception  {
+		homePage.verificarMensagemInvalidaDeProdutoPesquisado(Constant.confirmaProdutoInvalido());
 		Screenshot.tirar(driver, "target/screenshot/" + Generator.dataHoraParaArquivo() + " consultaDeProdutoCampoPesquisaInvalido.png");
 	}
 			

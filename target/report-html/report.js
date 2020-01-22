@@ -143,7 +143,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Wilkerbn220",
+        "Wilkerbn227",
         "Wbn000001",
         "Wbn000001",
         "wilker.bn@hotmail.com",
@@ -155,7 +155,7 @@ formatter.examples({
         "R. Autonomistas 1",
         "SP",
         "11111-111",
-        "Wilkerbn220"
+        "Wilkerbn227"
       ],
       "line": 30,
       "id": "cadastro-de-usuario;deve-inserir-uma-conta;;2"
@@ -194,7 +194,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "preencher meu nome de usuário \"Wilkerbn220\"",
+  "name": "preencher meu nome de usuário \"Wilkerbn227\"",
   "matchedColumns": [
     0
   ],
@@ -300,7 +300,7 @@ formatter.step({
 });
 formatter.step({
   "line": 26,
-  "name": "devo receber a informação com o nome de usuario\"Wilkerbn220\"",
+  "name": "devo receber a informação com o nome de usuario\"Wilkerbn227\"",
   "matchedColumns": [
     12
   ],
@@ -310,34 +310,34 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 11242129300,
+  "duration": 11352546800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 1167783100,
+  "duration": 1158983800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 504525100,
+  "duration": 523414800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wilkerbn220",
+      "val": "Wilkerbn227",
       "offset": 31
     }
   ],
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "duration": 344791000,
+  "duration": 340376700,
   "status": "passed"
 });
 formatter.match({
@@ -350,7 +350,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "duration": 150552300,
+  "duration": 145282100,
   "status": "passed"
 });
 formatter.match({
@@ -363,7 +363,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "duration": 147237300,
+  "duration": 144703800,
   "status": "passed"
 });
 formatter.match({
@@ -376,7 +376,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "duration": 395336600,
+  "duration": 358981800,
   "status": "passed"
 });
 formatter.match({
@@ -389,7 +389,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "duration": 106786000,
+  "duration": 114923100,
   "status": "passed"
 });
 formatter.match({
@@ -402,7 +402,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "duration": 122678800,
+  "duration": 124330100,
   "status": "passed"
 });
 formatter.match({
@@ -415,7 +415,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "duration": 130565100,
+  "duration": 136041800,
   "status": "passed"
 });
 formatter.match({
@@ -428,7 +428,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "duration": 336650100,
+  "duration": 732027500,
   "status": "passed"
 });
 formatter.match({
@@ -441,7 +441,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "duration": 116085200,
+  "duration": 106362100,
   "status": "passed"
 });
 formatter.match({
@@ -454,7 +454,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "duration": 191006700,
+  "duration": 184629200,
   "status": "passed"
 });
 formatter.match({
@@ -467,7 +467,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "duration": 83317000,
+  "duration": 83147000,
   "status": "passed"
 });
 formatter.match({
@@ -480,46 +480,46 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "duration": 144205200,
+  "duration": 125492100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "duration": 89881300,
+  "duration": 80460100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "duration": 76572200,
+  "duration": 59557100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wilkerbn220",
+      "val": "Wilkerbn227",
       "offset": 48
     }
   ],
   "location": "CadastroDeUsuarioTest.devo_receber_a_informação_com_o_nome_de_usuario(String)"
 });
 formatter.result({
-  "duration": 1657154000,
+  "duration": 1659713600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 651916600,
+  "duration": 69600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 165200,
+  "duration": 22000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 141200,
+  "duration": 645878400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -814,21 +814,21 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 10001588800,
+  "duration": 9990787000,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 1168546000,
+  "duration": 1114416000,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 497865800,
+  "duration": 493135200,
   "status": "passed"
 });
 formatter.match({
@@ -841,7 +841,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "duration": 353231500,
+  "duration": 353775500,
   "status": "passed"
 });
 formatter.match({
@@ -854,7 +854,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "duration": 148500800,
+  "duration": 135514500,
   "status": "passed"
 });
 formatter.match({
@@ -867,7 +867,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "duration": 152746800,
+  "duration": 145517700,
   "status": "passed"
 });
 formatter.match({
@@ -880,7 +880,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "duration": 387590000,
+  "duration": 357148900,
   "status": "passed"
 });
 formatter.match({
@@ -893,7 +893,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "duration": 116317700,
+  "duration": 97935000,
   "status": "passed"
 });
 formatter.match({
@@ -906,7 +906,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "duration": 130834400,
+  "duration": 116884200,
   "status": "passed"
 });
 formatter.match({
@@ -919,7 +919,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "duration": 139917600,
+  "duration": 144805300,
   "status": "passed"
 });
 formatter.match({
@@ -932,7 +932,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "duration": 325507900,
+  "duration": 765637400,
   "status": "passed"
 });
 formatter.match({
@@ -945,7 +945,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "duration": 117530000,
+  "duration": 102285500,
   "status": "passed"
 });
 formatter.match({
@@ -958,7 +958,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "duration": 191593300,
+  "duration": 183515400,
   "status": "passed"
 });
 formatter.match({
@@ -971,7 +971,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "duration": 85973700,
+  "duration": 89314300,
   "status": "passed"
 });
 formatter.match({
@@ -984,21 +984,21 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "duration": 140496300,
+  "duration": 126716800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "duration": 86505500,
+  "duration": 78132000,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "duration": 79867200,
+  "duration": 78340200,
   "status": "passed"
 });
 formatter.match({
@@ -1011,19 +1011,19 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.devo_receber_a_informação_que_o_usuario_já_existe(String)"
 });
 formatter.result({
-  "duration": 1396178200,
+  "duration": 1405863800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 632102200,
+  "duration": 21300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 40600,
+  "duration": 12900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 26000,
+  "duration": 637993400,
   "status": "passed"
 });
 formatter.uri("features/consultaDeProdutoCampoPesquisaTest.feature");
@@ -1040,97 +1040,13 @@ formatter.feature({
   "id": "consulta-de-produto-por-campo-de-pesquisa",
   "keyword": "Funcionalidade"
 });
-formatter.scenarioOutline({
+formatter.scenario({
   "line": 7,
   "name": ": Deve efetuar uma pesquisa",
   "description": "",
   "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa",
-  "type": "scenario_outline",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_campo_pesquisa"
-    }
-  ]
-});
-formatter.step({
-  "line": 8,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 9,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 10,
-  "name": "inserir a categoria de meu produto \"\u003ccategoria\u003e\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 11,
-  "name": "selecionar um determinado produto \"\u003cproduto\u003e\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 12,
-  "name": "devo visualizar o meu produto \"\u003cconfirmaProduto\u003e\"",
-  "keyword": "Então "
-});
-formatter.examples({
-  "line": 15,
-  "name": "",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;",
-  "rows": [
-    {
-      "cells": [
-        "categoria",
-        "produto",
-        "confirmaProduto"
-      ],
-      "line": 16,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;1"
-    },
-    {
-      "cells": [
-        "Laptop",
-        "HP PAVILION 15Z TOUCH LAPTOP",
-        "HP PAVILION 15Z TOUCH LAPTOP"
-      ],
-      "line": 17,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;2"
-    },
-    {
-      "cells": [
-        "Mice",
-        "HP Z3600 WIRELESS MOUSE",
-        "HP Z3600 WIRELESS MOUSE"
-      ],
-      "line": 18,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;3"
-    },
-    {
-      "cells": [
-        "Speakers",
-        "HP ROAR MINI WIRELESS SPEAKER",
-        "HP ROAR MINI WIRELESS SPEAKER"
-      ],
-      "line": 19,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;4"
-    }
-  ],
-  "keyword": "Exemplos"
-});
-formatter.scenario({
-  "line": 17,
-  "name": ": Deve efetuar uma pesquisa",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
+  "keyword": "Cenário",
   "tags": [
     {
       "line": 6,
@@ -1150,644 +1066,132 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "inserir a categoria de meu produto \"Laptop\"",
-  "matchedColumns": [
-    0
-  ],
+  "name": "inserir a categoria de meu produto",
   "keyword": "E "
 });
 formatter.step({
   "line": 11,
-  "name": "selecionar um determinado produto \"HP PAVILION 15Z TOUCH LAPTOP\"",
-  "matchedColumns": [
-    1
-  ],
+  "name": "selecionar um determinado produto",
   "keyword": "E "
 });
 formatter.step({
   "line": 12,
-  "name": "devo visualizar o meu produto \"HP PAVILION 15Z TOUCH LAPTOP\"",
-  "matchedColumns": [
-    2
-  ],
+  "name": "devo visualizar o meu produto",
   "keyword": "Então "
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
 });
 formatter.result({
-  "duration": 9997735900,
+  "duration": 10374606200,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
 });
 formatter.result({
-  "duration": 94136600,
+  "duration": 63091800,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Laptop",
-      "offset": 36
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_de_meu_produto(String)"
+  "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_de_meu_produto()"
 });
 formatter.result({
-  "duration": 170672300,
+  "duration": 176578100,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "HP PAVILION 15Z TOUCH LAPTOP",
-      "offset": 35
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.selecionarUmDeterminadoProduto(String)"
+  "location": "ConsultaDeProdutoCampoPesquisaTest.selecionar_um_determinado_produto()"
 });
 formatter.result({
-  "duration": 932642100,
+  "duration": 1152106800,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "HP PAVILION 15Z TOUCH LAPTOP",
-      "offset": 31
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto(String)"
+  "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto()"
 });
 formatter.result({
-  "duration": 547264400,
+  "duration": 1369139900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 21700,
+  "duration": 16900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 631225900,
+  "duration": 624054500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 25700,
+  "duration": 30600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 18,
-  "name": ": Deve efetuar uma pesquisa",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;3",
-  "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_campo_pesquisa"
-    }
-  ]
-});
-formatter.step({
-  "line": 8,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 9,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 10,
-  "name": "inserir a categoria de meu produto \"Mice\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 11,
-  "name": "selecionar um determinado produto \"HP Z3600 WIRELESS MOUSE\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 12,
-  "name": "devo visualizar o meu produto \"HP Z3600 WIRELESS MOUSE\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
-});
-formatter.result({
-  "duration": 10045556300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
-});
-formatter.result({
-  "duration": 71924800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Mice",
-      "offset": 36
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_de_meu_produto(String)"
-});
-formatter.result({
-  "duration": 157255600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "HP Z3600 WIRELESS MOUSE",
-      "offset": 35
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.selecionarUmDeterminadoProduto(String)"
-});
-formatter.result({
-  "duration": 959687100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "HP Z3600 WIRELESS MOUSE",
-      "offset": 31
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto(String)"
-});
-formatter.result({
-  "duration": 524748700,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 15400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 649132800,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 103200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 19,
-  "name": ": Deve efetuar uma pesquisa",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa;;4",
-  "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_campo_pesquisa"
-    }
-  ]
-});
-formatter.step({
-  "line": 8,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 9,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 10,
-  "name": "inserir a categoria de meu produto \"Speakers\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 11,
-  "name": "selecionar um determinado produto \"HP ROAR MINI WIRELESS SPEAKER\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 12,
-  "name": "devo visualizar o meu produto \"HP ROAR MINI WIRELESS SPEAKER\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
-});
-formatter.result({
-  "duration": 10004940500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
-});
-formatter.result({
-  "duration": 80177500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Speakers",
-      "offset": 36
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_de_meu_produto(String)"
-});
-formatter.result({
-  "duration": 199490400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "HP ROAR MINI WIRELESS SPEAKER",
-      "offset": 35
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.selecionarUmDeterminadoProduto(String)"
-});
-formatter.result({
-  "duration": 900786100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "HP ROAR MINI WIRELESS SPEAKER",
-      "offset": 31
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto(String)"
-});
-formatter.result({
-  "duration": 555072400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 79600,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 621476400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 74900,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 22,
+  "line": 14,
   "name": ": Deve efetuar uma pesquisa de produto invalido",
   "description": "",
   "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido",
-  "type": "scenario_outline",
-  "keyword": "Esquema do Cenário"
-});
-formatter.step({
-  "line": 23,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 24,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 25,
-  "name": "inserir a categoria invalida de meu produto \"\u003ccategoria\u003e\"",
-  "keyword": "E "
-});
-formatter.step({
-  "line": 26,
-  "name": "devo visualizar a mensagem de confirmacao \"\u003cconfirmaProduto\u003e\"",
-  "keyword": "Então "
-});
-formatter.examples({
-  "line": 29,
-  "name": "",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;",
-  "rows": [
-    {
-      "cells": [
-        "categoria",
-        "confirmaProduto"
-      ],
-      "line": 30,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;1"
-    },
-    {
-      "cells": [
-        "Video Game",
-        "No results for"
-      ],
-      "line": 31,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;2"
-    },
-    {
-      "cells": [
-        "Celular",
-        "No results for"
-      ],
-      "line": 32,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;3"
-    },
-    {
-      "cells": [
-        "Carro",
-        "No results for"
-      ],
-      "line": 33,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;4"
-    }
-  ],
-  "keyword": "Exemplos"
-});
-formatter.scenario({
-  "line": 31,
-  "name": ": Deve efetuar uma pesquisa de produto invalido",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário"
+  "keyword": "Cenário"
 });
 formatter.step({
-  "line": 23,
+  "line": 15,
   "name": "que estou na tela aplicacao",
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 24,
+  "line": 16,
   "name": "clicar na opcao de pesquisa",
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 25,
-  "name": "inserir a categoria invalida de meu produto \"Video Game\"",
-  "matchedColumns": [
-    0
-  ],
+  "line": 17,
+  "name": "inserir a categoria invalida de meu produto",
   "keyword": "E "
 });
 formatter.step({
-  "line": 26,
-  "name": "devo visualizar a mensagem de confirmacao \"No results for\"",
-  "matchedColumns": [
-    1
-  ],
+  "line": 18,
+  "name": "devo visualizar a mensagem de confirmacao",
   "keyword": "Então "
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
 });
 formatter.result({
-  "duration": 9997422900,
+  "duration": 10052928700,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
 });
 formatter.result({
-  "duration": 77805100,
+  "duration": 68153400,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Video Game",
-      "offset": 45
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserirACategoriaInvalidaDeMeuProduto(String)"
+  "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_invalida_de_meu_produto()"
 });
 formatter.result({
-  "duration": 194042500,
+  "duration": 182721300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "No results for",
-      "offset": 43
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devoVisualizarAMensagemDeConfirmacao(String)"
+  "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_a_mensagem_de_confirmacao()"
 });
 formatter.result({
-  "duration": 1339777500,
+  "duration": 1404915800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 44000,
+  "duration": 16100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 751326100,
+  "duration": 618413900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 73200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 32,
-  "name": ": Deve efetuar uma pesquisa de produto invalido",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;3",
-  "type": "scenario",
-  "keyword": "Esquema do Cenário"
-});
-formatter.step({
-  "line": 23,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 24,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 25,
-  "name": "inserir a categoria invalida de meu produto \"Celular\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 26,
-  "name": "devo visualizar a mensagem de confirmacao \"No results for\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
-});
-formatter.result({
-  "duration": 9943390400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
-});
-formatter.result({
-  "duration": 81548000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Celular",
-      "offset": 45
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserirACategoriaInvalidaDeMeuProduto(String)"
-});
-formatter.result({
-  "duration": 160234100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "No results for",
-      "offset": 43
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devoVisualizarAMensagemDeConfirmacao(String)"
-});
-formatter.result({
-  "duration": 1385222500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 15900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 753195100,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 69600,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 33,
-  "name": ": Deve efetuar uma pesquisa de produto invalido",
-  "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa-de-produto-invalido;;4",
-  "type": "scenario",
-  "keyword": "Esquema do Cenário"
-});
-formatter.step({
-  "line": 23,
-  "name": "que estou na tela aplicacao",
-  "keyword": "Dado "
-});
-formatter.step({
-  "line": 24,
-  "name": "clicar na opcao de pesquisa",
-  "keyword": "Quando "
-});
-formatter.step({
-  "line": 25,
-  "name": "inserir a categoria invalida de meu produto \"Carro\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "E "
-});
-formatter.step({
-  "line": 26,
-  "name": "devo visualizar a mensagem de confirmacao \"No results for\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
-});
-formatter.result({
-  "duration": 9960692300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
-});
-formatter.result({
-  "duration": 80342700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Carro",
-      "offset": 45
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.inserirACategoriaInvalidaDeMeuProduto(String)"
-});
-formatter.result({
-  "duration": 140731200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "No results for",
-      "offset": 43
-    }
-  ],
-  "location": "ConsultaDeProdutoCampoPesquisaTest.devoVisualizarAMensagemDeConfirmacao(String)"
-});
-formatter.result({
-  "duration": 1417311400,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 17500,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 634069900,
-  "status": "passed"
-});
-formatter.after({
-  "duration": 73400,
+  "duration": 73500,
   "status": "passed"
 });
 formatter.uri("features/consultaDeProdutoTelaPrincipalTest.feature");
@@ -1799,16 +1203,16 @@ formatter.feature({
     }
   ],
   "line": 2,
-  "name": "Consulta de produto por campo de pesquisa",
+  "name": "Consulta de produto na tela principal",
   "description": "\r\nComo um usuário quero efetuar uma pesquisa de produto através da tela principal do sistema",
-  "id": "consulta-de-produto-por-campo-de-pesquisa",
+  "id": "consulta-de-produto-na-tela-principal",
   "keyword": "Funcionalidade"
 });
 formatter.scenarioOutline({
   "line": 7,
   "name": "Deve efetuar uma pesquisa",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa",
   "type": "scenario_outline",
   "keyword": "Esquema do Cenário",
   "tags": [
@@ -1842,7 +1246,7 @@ formatter.examples({
   "line": 13,
   "name": "",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;",
   "rows": [
     {
       "cells": [
@@ -1851,7 +1255,7 @@ formatter.examples({
         "confirmaProduto"
       ],
       "line": 14,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;1"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;1"
     },
     {
       "cells": [
@@ -1860,7 +1264,7 @@ formatter.examples({
         "HP PAVILION 15Z LAPTOP"
       ],
       "line": 15,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;2"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;2"
     },
     {
       "cells": [
@@ -1869,7 +1273,7 @@ formatter.examples({
         "HP Z8000 BLUETOOTH MOUSE"
       ],
       "line": 16,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;3"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;3"
     },
     {
       "cells": [
@@ -1878,7 +1282,7 @@ formatter.examples({
         "BOSE SOUNDLINK WIRELESS SPEAKER"
       ],
       "line": 17,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;4"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;4"
     }
   ],
   "keyword": "Exemplos"
@@ -1887,7 +1291,7 @@ formatter.scenario({
   "line": 15,
   "name": "Deve efetuar uma pesquisa",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;2",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;2",
   "type": "scenario",
   "keyword": "Esquema do Cenário",
   "tags": [
@@ -1930,7 +1334,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9998990900,
+  "duration": 9950505500,
   "status": "passed"
 });
 formatter.match({
@@ -1943,7 +1347,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 129690300,
+  "duration": 101016000,
   "status": "passed"
 });
 formatter.match({
@@ -1956,7 +1360,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 558787400,
+  "duration": 536315600,
   "status": "passed"
 });
 formatter.match({
@@ -1969,26 +1373,26 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 784311800,
+  "duration": 1436654400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 19800,
+  "duration": 631711100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10600,
+  "duration": 39400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 629444500,
+  "duration": 29500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 16,
   "name": "Deve efetuar uma pesquisa",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;3",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;3",
   "type": "scenario",
   "keyword": "Esquema do Cenário",
   "tags": [
@@ -2031,7 +1435,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 10025047000,
+  "duration": 9968694300,
   "status": "passed"
 });
 formatter.match({
@@ -2044,7 +1448,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 114735400,
+  "duration": 97436000,
   "status": "passed"
 });
 formatter.match({
@@ -2057,7 +1461,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 504505500,
+  "duration": 592676400,
   "status": "passed"
 });
 formatter.match({
@@ -2070,26 +1474,26 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 725818600,
+  "duration": 1386718900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16000,
+  "duration": 618886500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7900,
+  "duration": 61500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 615824200,
+  "duration": 42000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 17,
   "name": "Deve efetuar uma pesquisa",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-pesquisa;;4",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;4",
   "type": "scenario",
   "keyword": "Esquema do Cenário",
   "tags": [
@@ -2132,7 +1536,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9960347500,
+  "duration": 9993213300,
   "status": "passed"
 });
 formatter.match({
@@ -2145,7 +1549,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 119683800,
+  "duration": 106179800,
   "status": "passed"
 });
 formatter.match({
@@ -2158,7 +1562,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 492185400,
+  "duration": 535107200,
   "status": "passed"
 });
 formatter.match({
@@ -2171,26 +1575,26 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 630034600,
+  "duration": 1372437900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48100,
+  "duration": 1199346000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10700,
+  "duration": 87500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 613447800,
+  "duration": 24000,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 21,
   "name": "Deve efetuar uma compra com a quantidade invalida de produtos",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos",
   "type": "scenario_outline",
   "keyword": "Esquema do Cenário"
 });
@@ -2228,7 +1632,7 @@ formatter.examples({
   "line": 30,
   "name": "",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;",
   "rows": [
     {
       "cells": [
@@ -2238,7 +1642,7 @@ formatter.examples({
         "confirmaProduto"
       ],
       "line": 31,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;1"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;1"
     },
     {
       "cells": [
@@ -2248,7 +1652,7 @@ formatter.examples({
         "Oops! We only have 10 in stock. We updated your order accordingly"
       ],
       "line": 32,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;2"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;2"
     },
     {
       "cells": [
@@ -2258,7 +1662,7 @@ formatter.examples({
         "Oops! We only have 10 in stock. We updated your order accordingly"
       ],
       "line": 33,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;3"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;3"
     },
     {
       "cells": [
@@ -2268,7 +1672,7 @@ formatter.examples({
         "Oops! We only have 10 in stock. We updated your order accordingly"
       ],
       "line": 34,
-      "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;4"
+      "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;4"
     }
   ],
   "keyword": "Exemplos"
@@ -2277,7 +1681,7 @@ formatter.scenario({
   "line": 32,
   "name": "Deve efetuar uma compra com a quantidade invalida de produtos",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;2",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;2",
   "type": "scenario",
   "keyword": "Esquema do Cenário"
 });
@@ -2327,7 +1731,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9953774000,
+  "duration": 9997810100,
   "status": "passed"
 });
 formatter.match({
@@ -2340,7 +1744,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 134690400,
+  "duration": 103427000,
   "status": "passed"
 });
 formatter.match({
@@ -2353,7 +1757,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 536887100,
+  "duration": 528620600,
   "status": "passed"
 });
 formatter.match({
@@ -2366,14 +1770,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 608023000,
+  "duration": 362316200,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 68558600,
+  "duration": 60266200,
   "status": "passed"
 });
 formatter.match({
@@ -2386,26 +1790,26 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1426669400,
+  "duration": 1436653700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 15900,
+  "duration": 620263900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7500,
+  "duration": 43700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 629328000,
+  "duration": 36700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 33,
   "name": "Deve efetuar uma compra com a quantidade invalida de produtos",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;3",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;3",
   "type": "scenario",
   "keyword": "Esquema do Cenário"
 });
@@ -2455,7 +1859,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9989815800,
+  "duration": 9911991100,
   "status": "passed"
 });
 formatter.match({
@@ -2468,7 +1872,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 105056100,
+  "duration": 83811800,
   "status": "passed"
 });
 formatter.match({
@@ -2481,7 +1885,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 538991800,
+  "duration": 532359800,
   "status": "passed"
 });
 formatter.match({
@@ -2494,14 +1898,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 478894800,
+  "duration": 360096800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 72380900,
+  "duration": 73120700,
   "status": "passed"
 });
 formatter.match({
@@ -2514,26 +1918,26 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1382853100,
+  "duration": 1421864300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 14000,
+  "duration": 619789100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7400,
+  "duration": 34500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 645002000,
+  "duration": 26700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 34,
   "name": "Deve efetuar uma compra com a quantidade invalida de produtos",
   "description": "",
-  "id": "consulta-de-produto-por-campo-de-pesquisa;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;4",
+  "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-compra-com-a-quantidade-invalida-de-produtos;;4",
   "type": "scenario",
   "keyword": "Esquema do Cenário"
 });
@@ -2583,7 +1987,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 10038031600,
+  "duration": 9986165300,
   "status": "passed"
 });
 formatter.match({
@@ -2596,7 +2000,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 120017600,
+  "duration": 86399400,
   "status": "passed"
 });
 formatter.match({
@@ -2609,7 +2013,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 532116800,
+  "duration": 520005900,
   "status": "passed"
 });
 formatter.match({
@@ -2622,14 +2026,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 458144000,
+  "duration": 339161300,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 67577400,
+  "duration": 69777200,
   "status": "passed"
 });
 formatter.match({
@@ -2642,19 +2046,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1442873000,
+  "duration": 1438388300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 15100,
+  "duration": 619038100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 7100,
+  "duration": 49800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 634389600,
+  "duration": 29100,
   "status": "passed"
 });
 });
