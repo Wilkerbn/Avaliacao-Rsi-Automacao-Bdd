@@ -3,7 +3,7 @@ Funcionalidade: Consulta de produto na tela principal
   
   Como um usuário quero efetuar uma pesquisa de produto através da tela principal do sistema
  
-@consulta_de_produto_tela_principal
+
 Esquema do Cenário: Deve efetuar uma pesquisa 
     Dado que estou na aplicacao 
     Quando clicar na categoria do produto "<categoria>"

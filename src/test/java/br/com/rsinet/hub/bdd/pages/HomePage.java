@@ -15,11 +15,13 @@ import br.com.rsinet.hub.bdd.suport.Wait;
 
 public class HomePage extends Wait {
 	
+	/* Construtor da Page Factory onde recebe um método estático que é responsável por inicializar todos objetos da página*/
 	public HomePage(WebDriver driver) {
 		super (driver);
 		PageFactory.initElements(driver, this);
 		}
 	
+	/* Aqui são todos os elementos capturados da página a ser testada */
 	@FindBy (how = How.ID, using = "menuSearch")
 	private WebElement campoLupaDePesquisa;
 	
@@ -50,7 +52,7 @@ public class HomePage extends Wait {
 	@FindBy (how = How.XPATH, using = "//*[@id=\"searchPage\"]/div[3]/div/label/span")
 	private WebElement mensagemInformandoProdutoInvalido;
 	
-	
+	/* Aqui são todos os métodos onde informamos uma ação nos elementos localizados */
 	public void pesquisaProdutoInvalidoNaLupa(String categoriaInvalida) {
 		campoParaEscreverCategoria.sendKeys(categoriaInvalida +Keys.ENTER);
 	}

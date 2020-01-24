@@ -11,11 +11,13 @@ import br.com.rsinet.hub.bdd.suport.Wait;
 
 public class LoginPage extends Wait{
 
+	/* Construtor da Page Factory onde recebe um método estático que é responsável por inicializar todos objetos da página*/
 	public LoginPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
+	/* Aqui são todos os elementos capturados da página a ser testada */
 	@FindBy(how = How.ID, using = "menuUser")
 	private WebElement botaoUsuario;
 

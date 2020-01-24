@@ -10,13 +10,7 @@ formatter.feature({
   "name": "Cadastro de usuario",
   "description": "Como um usuário quero preencher minhas informações\nPara que eu possa ter meu cadastro no site",
   "id": "cadastro-de-usuario",
-  "keyword": "Funcionalidade",
-  "tags": [
-    {
-      "line": 2,
-      "name": "@regressivo"
-    }
-  ]
+  "keyword": "Funcionalidade"
 });
 formatter.scenarioOutline({
   "line": 8,
@@ -143,7 +137,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Wilkerbn228",
+        "Wilkerbn702",
         "Wbn000001",
         "Wbn000001",
         "wilker.bn@hotmail.com",
@@ -155,7 +149,7 @@ formatter.examples({
         "R. Autonomistas 1",
         "SP",
         "11111-111",
-        "Wilkerbn228"
+        "Wilkerbn702"
       ],
       "line": 30,
       "id": "cadastro-de-usuario;deve-inserir-uma-conta;;2"
@@ -169,13 +163,7 @@ formatter.scenario({
   "description": "",
   "id": "cadastro-de-usuario;deve-inserir-uma-conta;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 2,
-      "name": "@regressivo"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 9,
@@ -194,7 +182,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "preencher meu nome de usuário \"Wilkerbn228\"",
+  "name": "preencher meu nome de usuário \"Wilkerbn702\"",
   "matchedColumns": [
     0
   ],
@@ -300,7 +288,7 @@ formatter.step({
 });
 formatter.step({
   "line": 26,
-  "name": "devo receber a informação com o nome de usuario\"Wilkerbn228\"",
+  "name": "devo receber a informação com o nome de usuario\"Wilkerbn702\"",
   "matchedColumns": [
     12
   ],
@@ -310,34 +298,34 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 11361382700,
+  "duration": 11689484500,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 1127730300,
+  "duration": 1140089400,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 505750700,
+  "duration": 898464000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wilkerbn228",
+      "val": "Wilkerbn702",
       "offset": 31
     }
   ],
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "duration": 359395400,
+  "duration": 189014300,
   "status": "passed"
 });
 formatter.match({
@@ -350,7 +338,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "duration": 159312600,
+  "duration": 164742300,
   "status": "passed"
 });
 formatter.match({
@@ -363,7 +351,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "duration": 126032100,
+  "duration": 147464200,
   "status": "passed"
 });
 formatter.match({
@@ -376,7 +364,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "duration": 375198900,
+  "duration": 406059200,
   "status": "passed"
 });
 formatter.match({
@@ -389,7 +377,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "duration": 122830100,
+  "duration": 126148100,
   "status": "passed"
 });
 formatter.match({
@@ -402,7 +390,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "duration": 124082700,
+  "duration": 151663100,
   "status": "passed"
 });
 formatter.match({
@@ -415,7 +403,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "duration": 148289700,
+  "duration": 157836000,
   "status": "passed"
 });
 formatter.match({
@@ -428,7 +416,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "duration": 992511900,
+  "duration": 1201860300,
   "status": "passed"
 });
 formatter.match({
@@ -441,7 +429,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "duration": 107786800,
+  "duration": 126906500,
   "status": "passed"
 });
 formatter.match({
@@ -454,7 +442,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "duration": 183610100,
+  "duration": 207880200,
   "status": "passed"
 });
 formatter.match({
@@ -467,7 +455,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "duration": 78318900,
+  "duration": 92509100,
   "status": "passed"
 });
 formatter.match({
@@ -480,46 +468,46 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "duration": 135030200,
+  "duration": 145996100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "duration": 83487700,
+  "duration": 93561600,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "duration": 73508200,
+  "duration": 101951300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wilkerbn228",
+      "val": "Wilkerbn702",
       "offset": 48
     }
   ],
   "location": "CadastroDeUsuarioTest.devo_receber_a_informação_com_o_nome_de_usuario(String)"
 });
 formatter.result({
-  "duration": 1658606000,
+  "duration": 1695536300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 54200,
+  "duration": 644670000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22700,
+  "duration": 42300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 658661300,
+  "duration": 44600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -647,7 +635,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Wilkerbn156",
+        "Wilkerbn157",
         "Wbn000001",
         "Wbn000001",
         "wilker.bn@hotmail.com",
@@ -673,13 +661,7 @@ formatter.scenario({
   "description": "",
   "id": "cadastro-de-usuario;deve-informar-que-a-conta-já-foi-adicionada;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 2,
-      "name": "@regressivo"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 33,
@@ -698,7 +680,7 @@ formatter.step({
 });
 formatter.step({
   "line": 36,
-  "name": "preencher meu nome de usuário \"Wilkerbn156\"",
+  "name": "preencher meu nome de usuário \"Wilkerbn157\"",
   "matchedColumns": [
     0
   ],
@@ -814,34 +796,34 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.queEstouAcessandoAAplicação()"
 });
 formatter.result({
-  "duration": 9992292400,
+  "duration": 9996827100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoUsuário()"
 });
 formatter.result({
-  "duration": 1112061800,
+  "duration": 1139940700,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmCriarUmaNovaConta()"
 });
 formatter.result({
-  "duration": 506415000,
+  "duration": 530665400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wilkerbn156",
+      "val": "Wilkerbn157",
       "offset": 31
     }
   ],
   "location": "CadastroDeUsuarioTest.preencherMeuNomeDeUsuário(String)"
 });
 formatter.result({
-  "duration": 975869700,
+  "duration": 391186200,
   "status": "passed"
 });
 formatter.match({
@@ -854,7 +836,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaSenha(String)"
 });
 formatter.result({
-  "duration": 121816900,
+  "duration": 167842200,
   "status": "passed"
 });
 formatter.match({
@@ -867,7 +849,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherAConfirmaçãoDaSenha(String)"
 });
 formatter.result({
-  "duration": 129323100,
+  "duration": 152336900,
   "status": "passed"
 });
 formatter.match({
@@ -880,7 +862,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEMail(String)"
 });
 formatter.result({
-  "duration": 360490200,
+  "duration": 295341000,
   "status": "passed"
 });
 formatter.match({
@@ -893,7 +875,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuPrimeiroNome(String)"
 });
 formatter.result({
-  "duration": 117166600,
+  "duration": 119384400,
   "status": "passed"
 });
 formatter.match({
@@ -906,7 +888,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuUltimoNome(String)"
 });
 formatter.result({
-  "duration": 131537900,
+  "duration": 144505500,
   "status": "passed"
 });
 formatter.match({
@@ -919,7 +901,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuNúmeroDeTelefone(String)"
 });
 formatter.result({
-  "duration": 149101700,
+  "duration": 159295200,
   "status": "passed"
 });
 formatter.match({
@@ -932,7 +914,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarMeuPaís(String)"
 });
 formatter.result({
-  "duration": 862662400,
+  "duration": 1516696100,
   "status": "passed"
 });
 formatter.match({
@@ -945,7 +927,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMinhaCidade(String)"
 });
 formatter.result({
-  "duration": 106800200,
+  "duration": 131007400,
   "status": "passed"
 });
 formatter.match({
@@ -958,7 +940,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEndereço(String)"
 });
 formatter.result({
-  "duration": 188717700,
+  "duration": 323636500,
   "status": "passed"
 });
 formatter.match({
@@ -971,7 +953,7 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuEstado(String)"
 });
 formatter.result({
-  "duration": 81531400,
+  "duration": 97521000,
   "status": "passed"
 });
 formatter.match({
@@ -984,21 +966,21 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.preencherMeuCep(String)"
 });
 formatter.result({
-  "duration": 132513000,
+  "duration": 139044700,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.selecionarAOpçãoParaAceitarOsTermos()"
 });
 formatter.result({
-  "duration": 73832800,
+  "duration": 80137100,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroDeUsuarioTest.clicarEmRegistrar()"
 });
 formatter.result({
-  "duration": 72628700,
+  "duration": 88259000,
   "status": "passed"
 });
 formatter.match({
@@ -1011,19 +993,19 @@ formatter.match({
   "location": "CadastroDeUsuarioTest.devo_receber_a_informação_que_o_usuario_já_existe(String)"
 });
 formatter.result({
-  "duration": 1390924500,
+  "duration": 1396203400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 23300,
+  "duration": 630639000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 9700,
+  "duration": 14300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 628293200,
+  "duration": 11700,
   "status": "passed"
 });
 formatter.uri("features/consultaDeProdutoCampoPesquisaTest.feature");
@@ -1046,13 +1028,7 @@ formatter.scenario({
   "description": "",
   "id": "consulta-de-produto-por-campo-de-pesquisa;:-deve-efetuar-uma-pesquisa",
   "type": "scenario",
-  "keyword": "Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_campo_pesquisa"
-    }
-  ]
+  "keyword": "Cenário"
 });
 formatter.step({
   "line": 8,
@@ -1083,47 +1059,47 @@ formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
 });
 formatter.result({
-  "duration": 10410135500,
+  "duration": 10523463600,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
 });
 formatter.result({
-  "duration": 51022600,
+  "duration": 46088000,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_de_meu_produto()"
 });
 formatter.result({
-  "duration": 173861800,
+  "duration": 220024800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.selecionar_um_determinado_produto()"
 });
 formatter.result({
-  "duration": 1131451900,
+  "duration": 1156422800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto()"
 });
 formatter.result({
-  "duration": 1376881200,
+  "duration": 1364300700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16400,
+  "duration": 48500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 611898300,
+  "duration": 7400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 24200,
+  "duration": 623121900,
   "status": "passed"
 });
 formatter.scenario({
@@ -1158,40 +1134,40 @@ formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.que_estou_na_tela_aplicacao()"
 });
 formatter.result({
-  "duration": 9954226100,
+  "duration": 9987439800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.clicar_na_opcao_de_pesquisa()"
 });
 formatter.result({
-  "duration": 69979500,
+  "duration": 86990800,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.inserir_a_categoria_invalida_de_meu_produto()"
 });
 formatter.result({
-  "duration": 179960300,
+  "duration": 187629300,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_a_mensagem_de_confirmacao()"
 });
 formatter.result({
-  "duration": 1422575900,
+  "duration": 1365798900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 16100,
+  "duration": 16400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 620649900,
+  "duration": 7300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 65500,
+  "duration": 767804300,
   "status": "passed"
 });
 formatter.uri("features/consultaDeProdutoTelaPrincipalTest.feature");
@@ -1214,13 +1190,7 @@ formatter.scenarioOutline({
   "description": "",
   "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa",
   "type": "scenario_outline",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_tela_principal"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 8,
@@ -1293,13 +1263,7 @@ formatter.scenario({
   "description": "",
   "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;2",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_tela_principal"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 8,
@@ -1334,7 +1298,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9951008500,
+  "duration": 9937923800,
   "status": "passed"
 });
 formatter.match({
@@ -1347,7 +1311,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 96428100,
+  "duration": 160898200,
   "status": "passed"
 });
 formatter.match({
@@ -1360,7 +1324,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 555368100,
+  "duration": 549796900,
   "status": "passed"
 });
 formatter.match({
@@ -1373,19 +1337,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 1419997300,
+  "duration": 1395392400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 632386300,
+  "duration": 18200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 28000,
+  "duration": 607143700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 19200,
+  "duration": 66700,
   "status": "passed"
 });
 formatter.scenario({
@@ -1394,13 +1358,7 @@ formatter.scenario({
   "description": "",
   "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;3",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_tela_principal"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 8,
@@ -1435,7 +1393,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9969709300,
+  "duration": 9922817400,
   "status": "passed"
 });
 formatter.match({
@@ -1448,7 +1406,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 100107200,
+  "duration": 124352500,
   "status": "passed"
 });
 formatter.match({
@@ -1461,7 +1419,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 522473200,
+  "duration": 526282100,
   "status": "passed"
 });
 formatter.match({
@@ -1474,19 +1432,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 1383483400,
+  "duration": 1431174900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 636891700,
+  "duration": 14400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55800,
+  "duration": 613827100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 45600,
+  "duration": 66600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1495,13 +1453,7 @@ formatter.scenario({
   "description": "",
   "id": "consulta-de-produto-na-tela-principal;deve-efetuar-uma-pesquisa;;4",
   "type": "scenario",
-  "keyword": "Esquema do Cenário",
-  "tags": [
-    {
-      "line": 6,
-      "name": "@consulta_de_produto_tela_principal"
-    }
-  ]
+  "keyword": "Esquema do Cenário"
 });
 formatter.step({
   "line": 8,
@@ -1536,7 +1488,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9928642000,
+  "duration": 9964510200,
   "status": "passed"
 });
 formatter.match({
@@ -1549,7 +1501,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 87635200,
+  "duration": 135500400,
   "status": "passed"
 });
 formatter.match({
@@ -1562,7 +1514,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 625203700,
+  "duration": 538777100,
   "status": "passed"
 });
 formatter.match({
@@ -1575,19 +1527,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devo_visualizar_a_pagina_com_meu_produto(String)"
 });
 formatter.result({
-  "duration": 1396435200,
+  "duration": 1432964900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 623333200,
+  "duration": 16600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 36600,
+  "duration": 615293600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 13900,
+  "duration": 17900,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1731,7 +1683,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9994858200,
+  "duration": 10043126700,
   "status": "passed"
 });
 formatter.match({
@@ -1744,7 +1696,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 82634800,
+  "duration": 314191200,
   "status": "passed"
 });
 formatter.match({
@@ -1757,7 +1709,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 539012900,
+  "duration": 702535600,
   "status": "passed"
 });
 formatter.match({
@@ -1770,14 +1722,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 358442000,
+  "duration": 473994600,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 75640200,
+  "duration": 61989200,
   "status": "passed"
 });
 formatter.match({
@@ -1790,19 +1742,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1419778700,
+  "duration": 1394825200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 627443000,
+  "duration": 29800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 40000,
+  "duration": 623149400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 22700,
+  "duration": 41100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1859,7 +1811,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 10000038900,
+  "duration": 9949632000,
   "status": "passed"
 });
 formatter.match({
@@ -1872,7 +1824,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 94461600,
+  "duration": 136218600,
   "status": "passed"
 });
 formatter.match({
@@ -1885,7 +1837,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 540954900,
+  "duration": 528020400,
   "status": "passed"
 });
 formatter.match({
@@ -1898,14 +1850,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 330862200,
+  "duration": 477565100,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 82861800,
+  "duration": 79784200,
   "status": "passed"
 });
 formatter.match({
@@ -1918,19 +1870,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1376750000,
+  "duration": 1451527000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 616549200,
+  "duration": 15400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 38200,
+  "duration": 629629200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 15000,
+  "duration": 37800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1987,7 +1939,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.que_estou_na_aplicacao()"
 });
 formatter.result({
-  "duration": 9947057200,
+  "duration": 9925654200,
   "status": "passed"
 });
 formatter.match({
@@ -2000,7 +1952,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.clicar_na_categoria_do_produto(String)"
 });
 formatter.result({
-  "duration": 84991500,
+  "duration": 164404800,
   "status": "passed"
 });
 formatter.match({
@@ -2013,7 +1965,7 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionar_o_produto_desejado(String)"
 });
 formatter.result({
-  "duration": 522271700,
+  "duration": 553930800,
   "status": "passed"
 });
 formatter.match({
@@ -2026,14 +1978,14 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.selecionarQuantidadeForaDoPermitido(String)"
 });
 formatter.result({
-  "duration": 419545900,
+  "duration": 381540200,
   "status": "passed"
 });
 formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.inserirOProdutoNoCarrinhoDeCompra()"
 });
 formatter.result({
-  "duration": 84736800,
+  "duration": 82547300,
   "status": "passed"
 });
 formatter.match({
@@ -2046,19 +1998,19 @@ formatter.match({
   "location": "ConsultaDeProdutoTelaPrincipalTest.devoVisualizarUmaMensagemInformandoSobreAQuantidadeInvalida(String)"
 });
 formatter.result({
-  "duration": 1380736700,
+  "duration": 1417796100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 620717100,
+  "duration": 20700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 48900,
+  "duration": 636521000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 18200,
+  "duration": 69100,
   "status": "passed"
 });
 });

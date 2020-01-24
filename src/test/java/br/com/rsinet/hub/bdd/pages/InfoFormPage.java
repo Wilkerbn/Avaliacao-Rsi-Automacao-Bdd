@@ -13,12 +13,13 @@ import br.com.rsinet.hub.bdd.suport.Wait;
 public class InfoFormPage extends Wait {
 
 	
-
+	/* Construtor da Page Factory onde recebe um método estático que é responsável por inicializar todos objetos da página*/
 	public InfoFormPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 
+	/* Aqui são todos os elementos capturados */
 	@FindBy(how = How.NAME, using = "usernameRegisterPage")
 	private WebElement campoApelido;
 
@@ -67,6 +68,7 @@ public class InfoFormPage extends Wait {
 	@FindBy(how = How.XPATH, using = "//*[@id=\"registerPage\"]/article/sec-form/div[2]/label[1]")
 	private WebElement mensagemUsuarioJaExiste;
 
+	/* Aqui são todos os métodos onde informo uma ação nos elementos que são localizados */
 	public void inserirApelidoDoUsuario(String apelidoUsuario) {
 		campoApelido.sendKeys(apelidoUsuario);
 	}

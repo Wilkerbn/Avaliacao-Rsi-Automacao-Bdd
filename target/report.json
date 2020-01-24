@@ -16,7 +16,16 @@
         "after": [
           {
             "result": {
-              "duration": 54200,
+              "duration": 644670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42300,
               "status": "passed"
             },
             "match": {
@@ -25,20 +34,11 @@
           },
           {
             "result": {
-              "duration": 22700,
+              "duration": 44600,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 658661300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -47,7 +47,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11361382700,
+              "duration": 11689484500,
               "status": "passed"
             },
             "line": 9,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 1127730300,
+              "duration": 1140089400,
               "status": "passed"
             },
             "line": 10,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 505750700,
+              "duration": 898464000,
               "status": "passed"
             },
             "line": 11,
@@ -83,15 +83,15 @@
           },
           {
             "result": {
-              "duration": 359395400,
+              "duration": 189014300,
               "status": "passed"
             },
             "line": 12,
-            "name": "preencher meu nome de usuário \"Wilkerbn228\"",
+            "name": "preencher meu nome de usuário \"Wilkerbn702\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn228",
+                  "val": "Wilkerbn702",
                   "offset": 31
                 }
               ],
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 159312600,
+              "duration": 164742300,
               "status": "passed"
             },
             "line": 13,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 126032100,
+              "duration": 147464200,
               "status": "passed"
             },
             "line": 14,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 375198900,
+              "duration": 406059200,
               "status": "passed"
             },
             "line": 15,
@@ -167,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 122830100,
+              "duration": 126148100,
               "status": "passed"
             },
             "line": 16,
@@ -188,7 +188,7 @@
           },
           {
             "result": {
-              "duration": 124082700,
+              "duration": 151663100,
               "status": "passed"
             },
             "line": 17,
@@ -209,7 +209,7 @@
           },
           {
             "result": {
-              "duration": 148289700,
+              "duration": 157836000,
               "status": "passed"
             },
             "line": 18,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 992511900,
+              "duration": 1201860300,
               "status": "passed"
             },
             "line": 19,
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 107786800,
+              "duration": 126906500,
               "status": "passed"
             },
             "line": 20,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 183610100,
+              "duration": 207880200,
               "status": "passed"
             },
             "line": 21,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 78318900,
+              "duration": 92509100,
               "status": "passed"
             },
             "line": 22,
@@ -314,7 +314,7 @@
           },
           {
             "result": {
-              "duration": 135030200,
+              "duration": 145996100,
               "status": "passed"
             },
             "line": 23,
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 83487700,
+              "duration": 93561600,
               "status": "passed"
             },
             "line": 24,
@@ -347,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 73508200,
+              "duration": 101951300,
               "status": "passed"
             },
             "line": 25,
@@ -359,15 +359,15 @@
           },
           {
             "result": {
-              "duration": 1658606000,
+              "duration": 1695536300,
               "status": "passed"
             },
             "line": 26,
-            "name": "devo receber a informação com o nome de usuario\"Wilkerbn228\"",
+            "name": "devo receber a informação com o nome de usuario\"Wilkerbn702\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn228",
+                  "val": "Wilkerbn702",
                   "offset": 48
                 }
               ],
@@ -377,12 +377,6 @@
               12
             ],
             "keyword": "Então "
-          }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@regressivo"
           }
         ]
       },
@@ -394,7 +388,16 @@
         "after": [
           {
             "result": {
-              "duration": 23300,
+              "duration": 630639000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 14300,
               "status": "passed"
             },
             "match": {
@@ -403,20 +406,11 @@
           },
           {
             "result": {
-              "duration": 9700,
+              "duration": 11700,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 628293200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -425,7 +419,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9992292400,
+              "duration": 9996827100,
               "status": "passed"
             },
             "line": 33,
@@ -437,7 +431,7 @@
           },
           {
             "result": {
-              "duration": 1112061800,
+              "duration": 1139940700,
               "status": "passed"
             },
             "line": 34,
@@ -449,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 506415000,
+              "duration": 530665400,
               "status": "passed"
             },
             "line": 35,
@@ -461,15 +455,15 @@
           },
           {
             "result": {
-              "duration": 975869700,
+              "duration": 391186200,
               "status": "passed"
             },
             "line": 36,
-            "name": "preencher meu nome de usuário \"Wilkerbn156\"",
+            "name": "preencher meu nome de usuário \"Wilkerbn157\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Wilkerbn156",
+                  "val": "Wilkerbn157",
                   "offset": 31
                 }
               ],
@@ -482,7 +476,7 @@
           },
           {
             "result": {
-              "duration": 121816900,
+              "duration": 167842200,
               "status": "passed"
             },
             "line": 37,
@@ -503,7 +497,7 @@
           },
           {
             "result": {
-              "duration": 129323100,
+              "duration": 152336900,
               "status": "passed"
             },
             "line": 38,
@@ -524,7 +518,7 @@
           },
           {
             "result": {
-              "duration": 360490200,
+              "duration": 295341000,
               "status": "passed"
             },
             "line": 39,
@@ -545,7 +539,7 @@
           },
           {
             "result": {
-              "duration": 117166600,
+              "duration": 119384400,
               "status": "passed"
             },
             "line": 40,
@@ -566,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 131537900,
+              "duration": 144505500,
               "status": "passed"
             },
             "line": 41,
@@ -587,7 +581,7 @@
           },
           {
             "result": {
-              "duration": 149101700,
+              "duration": 159295200,
               "status": "passed"
             },
             "line": 42,
@@ -608,7 +602,7 @@
           },
           {
             "result": {
-              "duration": 862662400,
+              "duration": 1516696100,
               "status": "passed"
             },
             "line": 43,
@@ -629,7 +623,7 @@
           },
           {
             "result": {
-              "duration": 106800200,
+              "duration": 131007400,
               "status": "passed"
             },
             "line": 44,
@@ -650,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 188717700,
+              "duration": 323636500,
               "status": "passed"
             },
             "line": 45,
@@ -671,7 +665,7 @@
           },
           {
             "result": {
-              "duration": 81531400,
+              "duration": 97521000,
               "status": "passed"
             },
             "line": 46,
@@ -692,7 +686,7 @@
           },
           {
             "result": {
-              "duration": 132513000,
+              "duration": 139044700,
               "status": "passed"
             },
             "line": 47,
@@ -713,7 +707,7 @@
           },
           {
             "result": {
-              "duration": 73832800,
+              "duration": 80137100,
               "status": "passed"
             },
             "line": 48,
@@ -725,7 +719,7 @@
           },
           {
             "result": {
-              "duration": 72628700,
+              "duration": 88259000,
               "status": "passed"
             },
             "line": 49,
@@ -737,7 +731,7 @@
           },
           {
             "result": {
-              "duration": 1390924500,
+              "duration": 1396203400,
               "status": "passed"
             },
             "line": 50,
@@ -756,12 +750,6 @@
             ],
             "keyword": "Então "
           }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@regressivo"
-          }
         ]
       }
     ],
@@ -769,13 +757,7 @@
     "description": "Como um usuário quero preencher minhas informações\nPara que eu possa ter meu cadastro no site",
     "id": "cadastro-de-usuario",
     "keyword": "Funcionalidade",
-    "uri": "features/cadastroDeUsuarioTest.feature",
-    "tags": [
-      {
-        "line": 2,
-        "name": "@regressivo"
-      }
-    ]
+    "uri": "features/cadastroDeUsuarioTest.feature"
   },
   {
     "comments": [
@@ -794,7 +776,16 @@
         "after": [
           {
             "result": {
-              "duration": 16400,
+              "duration": 48500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7400,
               "status": "passed"
             },
             "match": {
@@ -803,20 +794,11 @@
           },
           {
             "result": {
-              "duration": 611898300,
+              "duration": 623121900,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 24200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -825,7 +807,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10410135500,
+              "duration": 10523463600,
               "status": "passed"
             },
             "line": 8,
@@ -837,7 +819,7 @@
           },
           {
             "result": {
-              "duration": 51022600,
+              "duration": 46088000,
               "status": "passed"
             },
             "line": 9,
@@ -849,7 +831,7 @@
           },
           {
             "result": {
-              "duration": 173861800,
+              "duration": 220024800,
               "status": "passed"
             },
             "line": 10,
@@ -861,7 +843,7 @@
           },
           {
             "result": {
-              "duration": 1131451900,
+              "duration": 1156422800,
               "status": "passed"
             },
             "line": 11,
@@ -873,7 +855,7 @@
           },
           {
             "result": {
-              "duration": 1376881200,
+              "duration": 1364300700,
               "status": "passed"
             },
             "line": 12,
@@ -882,12 +864,6 @@
               "location": "ConsultaDeProdutoCampoPesquisaTest.devo_visualizar_o_meu_produto()"
             },
             "keyword": "Então "
-          }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@consulta_de_produto_campo_pesquisa"
           }
         ]
       },
@@ -899,7 +875,16 @@
         "after": [
           {
             "result": {
-              "duration": 16100,
+              "duration": 16400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7300,
               "status": "passed"
             },
             "match": {
@@ -908,20 +893,11 @@
           },
           {
             "result": {
-              "duration": 620649900,
+              "duration": 767804300,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 65500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -930,7 +906,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9954226100,
+              "duration": 9987439800,
               "status": "passed"
             },
             "line": 15,
@@ -942,7 +918,7 @@
           },
           {
             "result": {
-              "duration": 69979500,
+              "duration": 86990800,
               "status": "passed"
             },
             "line": 16,
@@ -954,7 +930,7 @@
           },
           {
             "result": {
-              "duration": 179960300,
+              "duration": 187629300,
               "status": "passed"
             },
             "line": 17,
@@ -966,7 +942,7 @@
           },
           {
             "result": {
-              "duration": 1422575900,
+              "duration": 1365798900,
               "status": "passed"
             },
             "line": 18,
@@ -1002,7 +978,16 @@
         "after": [
           {
             "result": {
-              "duration": 632386300,
+              "duration": 18200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 607143700,
               "status": "passed"
             },
             "match": {
@@ -1011,20 +996,11 @@
           },
           {
             "result": {
-              "duration": 28000,
+              "duration": 66700,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 19200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1033,7 +1009,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9951008500,
+              "duration": 9937923800,
               "status": "passed"
             },
             "line": 8,
@@ -1045,7 +1021,7 @@
           },
           {
             "result": {
-              "duration": 96428100,
+              "duration": 160898200,
               "status": "passed"
             },
             "line": 9,
@@ -1066,7 +1042,7 @@
           },
           {
             "result": {
-              "duration": 555368100,
+              "duration": 549796900,
               "status": "passed"
             },
             "line": 10,
@@ -1087,7 +1063,7 @@
           },
           {
             "result": {
-              "duration": 1419997300,
+              "duration": 1395392400,
               "status": "passed"
             },
             "line": 11,
@@ -1106,12 +1082,6 @@
             ],
             "keyword": "Então "
           }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@consulta_de_produto_tela_principal"
-          }
         ]
       },
       {
@@ -1122,7 +1092,16 @@
         "after": [
           {
             "result": {
-              "duration": 636891700,
+              "duration": 14400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 613827100,
               "status": "passed"
             },
             "match": {
@@ -1131,20 +1110,11 @@
           },
           {
             "result": {
-              "duration": 55800,
+              "duration": 66600,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 45600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1153,7 +1123,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9969709300,
+              "duration": 9922817400,
               "status": "passed"
             },
             "line": 8,
@@ -1165,7 +1135,7 @@
           },
           {
             "result": {
-              "duration": 100107200,
+              "duration": 124352500,
               "status": "passed"
             },
             "line": 9,
@@ -1186,7 +1156,7 @@
           },
           {
             "result": {
-              "duration": 522473200,
+              "duration": 526282100,
               "status": "passed"
             },
             "line": 10,
@@ -1207,7 +1177,7 @@
           },
           {
             "result": {
-              "duration": 1383483400,
+              "duration": 1431174900,
               "status": "passed"
             },
             "line": 11,
@@ -1226,12 +1196,6 @@
             ],
             "keyword": "Então "
           }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@consulta_de_produto_tela_principal"
-          }
         ]
       },
       {
@@ -1242,7 +1206,16 @@
         "after": [
           {
             "result": {
-              "duration": 623333200,
+              "duration": 16600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 615293600,
               "status": "passed"
             },
             "match": {
@@ -1251,20 +1224,11 @@
           },
           {
             "result": {
-              "duration": 36600,
+              "duration": 17900,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 13900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1273,7 +1237,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9928642000,
+              "duration": 9964510200,
               "status": "passed"
             },
             "line": 8,
@@ -1285,7 +1249,7 @@
           },
           {
             "result": {
-              "duration": 87635200,
+              "duration": 135500400,
               "status": "passed"
             },
             "line": 9,
@@ -1306,7 +1270,7 @@
           },
           {
             "result": {
-              "duration": 625203700,
+              "duration": 538777100,
               "status": "passed"
             },
             "line": 10,
@@ -1327,7 +1291,7 @@
           },
           {
             "result": {
-              "duration": 1396435200,
+              "duration": 1432964900,
               "status": "passed"
             },
             "line": 11,
@@ -1346,12 +1310,6 @@
             ],
             "keyword": "Então "
           }
-        ],
-        "tags": [
-          {
-            "line": 6,
-            "name": "@consulta_de_produto_tela_principal"
-          }
         ]
       },
       {
@@ -1362,7 +1320,16 @@
         "after": [
           {
             "result": {
-              "duration": 627443000,
+              "duration": 29800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 623149400,
               "status": "passed"
             },
             "match": {
@@ -1371,20 +1338,11 @@
           },
           {
             "result": {
-              "duration": 40000,
+              "duration": 41100,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 22700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1393,7 +1351,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9994858200,
+              "duration": 10043126700,
               "status": "passed"
             },
             "line": 23,
@@ -1405,7 +1363,7 @@
           },
           {
             "result": {
-              "duration": 82634800,
+              "duration": 314191200,
               "status": "passed"
             },
             "line": 24,
@@ -1426,7 +1384,7 @@
           },
           {
             "result": {
-              "duration": 539012900,
+              "duration": 702535600,
               "status": "passed"
             },
             "line": 25,
@@ -1447,7 +1405,7 @@
           },
           {
             "result": {
-              "duration": 358442000,
+              "duration": 473994600,
               "status": "passed"
             },
             "line": 26,
@@ -1468,7 +1426,7 @@
           },
           {
             "result": {
-              "duration": 75640200,
+              "duration": 61989200,
               "status": "passed"
             },
             "line": 27,
@@ -1480,7 +1438,7 @@
           },
           {
             "result": {
-              "duration": 1419778700,
+              "duration": 1394825200,
               "status": "passed"
             },
             "line": 28,
@@ -1509,7 +1467,16 @@
         "after": [
           {
             "result": {
-              "duration": 616549200,
+              "duration": 15400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 629629200,
               "status": "passed"
             },
             "match": {
@@ -1518,20 +1485,11 @@
           },
           {
             "result": {
-              "duration": 38200,
+              "duration": 37800,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 15000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1540,7 +1498,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10000038900,
+              "duration": 9949632000,
               "status": "passed"
             },
             "line": 23,
@@ -1552,7 +1510,7 @@
           },
           {
             "result": {
-              "duration": 94461600,
+              "duration": 136218600,
               "status": "passed"
             },
             "line": 24,
@@ -1573,7 +1531,7 @@
           },
           {
             "result": {
-              "duration": 540954900,
+              "duration": 528020400,
               "status": "passed"
             },
             "line": 25,
@@ -1594,7 +1552,7 @@
           },
           {
             "result": {
-              "duration": 330862200,
+              "duration": 477565100,
               "status": "passed"
             },
             "line": 26,
@@ -1615,7 +1573,7 @@
           },
           {
             "result": {
-              "duration": 82861800,
+              "duration": 79784200,
               "status": "passed"
             },
             "line": 27,
@@ -1627,7 +1585,7 @@
           },
           {
             "result": {
-              "duration": 1376750000,
+              "duration": 1451527000,
               "status": "passed"
             },
             "line": 28,
@@ -1656,7 +1614,16 @@
         "after": [
           {
             "result": {
-              "duration": 620717100,
+              "duration": 20700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroDeUsuarioTest.finaliza()"
+            }
+          },
+          {
+            "result": {
+              "duration": 636521000,
               "status": "passed"
             },
             "match": {
@@ -1665,20 +1632,11 @@
           },
           {
             "result": {
-              "duration": 48900,
+              "duration": 69100,
               "status": "passed"
             },
             "match": {
               "location": "ConsultaDeProdutoCampoPesquisaTest.finaliza()"
-            }
-          },
-          {
-            "result": {
-              "duration": 18200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "CadastroDeUsuarioTest.finaliza()"
             }
           }
         ],
@@ -1687,7 +1645,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9947057200,
+              "duration": 9925654200,
               "status": "passed"
             },
             "line": 23,
@@ -1699,7 +1657,7 @@
           },
           {
             "result": {
-              "duration": 84991500,
+              "duration": 164404800,
               "status": "passed"
             },
             "line": 24,
@@ -1720,7 +1678,7 @@
           },
           {
             "result": {
-              "duration": 522271700,
+              "duration": 553930800,
               "status": "passed"
             },
             "line": 25,
@@ -1741,7 +1699,7 @@
           },
           {
             "result": {
-              "duration": 419545900,
+              "duration": 381540200,
               "status": "passed"
             },
             "line": 26,
@@ -1762,7 +1720,7 @@
           },
           {
             "result": {
-              "duration": 84736800,
+              "duration": 82547300,
               "status": "passed"
             },
             "line": 27,
@@ -1774,7 +1732,7 @@
           },
           {
             "result": {
-              "duration": 1380736700,
+              "duration": 1417796100,
               "status": "passed"
             },
             "line": 28,

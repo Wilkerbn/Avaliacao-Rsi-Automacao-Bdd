@@ -3,7 +3,7 @@ Funcionalidade: Consulta de produto por campo de pesquisa
   
   Como um usuário quero efetuar uma pesquisa de produto através do campo de pesquisa de produtos
  
-@consulta_de_produto_campo_pesquisa
+
 Cenário:: Deve efetuar uma pesquisa 
     Dado que estou na tela aplicacao
     Quando clicar na opcao de pesquisa
